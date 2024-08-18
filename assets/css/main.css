@@ -25,4 +25,42 @@ EmojiSymbols;
     color: white !important;
 }
 
+
+@media (max-width: 639px) {
+    .grid-3col {
+        grid-template-rows: 1fr 1fr 1fr;
+        grid-template-columns: none;
+    }
+    .grid-3col.sponsors {
+        grid-template-columns: 1fr 1fr 1fr;
+        grid-template-rows: none;
+        overflow-x: scroll;
+        /*background: _palette(bg-alt);*/
+        padding:0.25em;
+    }
+}
+
+.grid-3col {
+	display: grid;
+	grid-column-gap: 20px;
+	grid-row-gap: 20px;
+	grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-3col .bronze h2,
+.grid-3col .silver h2,
+.grid-3col .gold h2
+ { 
+	 min-height:2em;
+/*     background: _palette(button-fg);*/
+ }
+.grid-3col.no-h-gutter {
+	grid-row-gap: 0px;
+	margin-bottom:1em;
+}
+.grid-3col.no-h-gutter > div {
+	margin-bottom: 0px !important;
+	margin-top: 0px !important;
+}	
+
+
 /* Custom CSS end */
