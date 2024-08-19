@@ -4,7 +4,7 @@ date: 2024-08-18T11:10:36+08:00
 draft: false
 language: en
 description: Help support the South West's oldest grass roots tech community
-# featured_image: ../assets/images/pages/Tech-Exeter-2019-57a.jpg
+featured_image: ../assets/images/pages/DSC_9659.jpg
 ---
 <article class="post sponsor-page">
   <header> 
@@ -12,15 +12,13 @@ description: Help support the South West's oldest grass roots tech community
       <h1>Become a sponsor</h1>
     </div>
   </header>
-  <a href="#apply" class="image featured">
-    <img src="/assets/images/studio_shot_4.jpg" alt="Panoramic picture of a studio setup with lights, video cameras and monitors">
-  </a>
     <p>For the past nine years, we’ve held Exeter’s only grass-roots tech conference, a sell-out event which attracts local and national speakers across a broad range of themes for our ever expanding tech & digital community.</p>
     <p>We're a not-for-profit community interest company - your sponsorship monies go directly into helping us to put on events like this - we don't take a salary!</p>
     <blockquote>“Tech Exeter and Digital Exeter are at the heart of the tech community in this beautiful city, where innovation is supported by leading incubators like SETsquared” - Tech Nation</blockquote>
     <blockquote>“My organisation (NHS Digital) and myself needs to be more involved in the TechExeter scene, I think it is really great to see this stuff going on”</blockquote>
     <blockquote>“It's great that the Tech Exeter Conference has started from a grassroots level and is now a pull for developers from across the South West”</blockquote>
     <h3>Our packages</h3>
+    <hr/>
     <div class="grid-3col no-h-gutter sponsors">
       <div class="bronze">
       <h1>Sponsor</h1>
@@ -54,7 +52,7 @@ description: Help support the South West's oldest grass roots tech community
         <li>Event tickets</li>
         <li>Logo and link on website</li>
         <li>Exhibition space in our communal area for popup banner and table</li>
-        <li>Prominant logo footage</li>
+        <li>Prominant logo positioning</li>
         <li>Your popup banners and logo at all tracks</li>
         <li>Social media coverage</li>
         <li>Distribute items in delegate bags</li>

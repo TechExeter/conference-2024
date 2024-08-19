@@ -30,6 +30,7 @@ EmojiSymbols;
     .grid-3col {
         grid-template-rows: 1fr 1fr 1fr;
         grid-template-columns: none;
+        font-size:80%;
     }
     .grid-3col.sponsors {
         grid-template-columns: 1fr 1fr 1fr;
@@ -45,6 +46,9 @@ EmojiSymbols;
 	grid-column-gap: 20px;
 	grid-row-gap: 20px;
 	grid-template-columns: 1fr 1fr 1fr;
+}
+.grid-3col.sponsors h1 {
+    min-height: 2.5em;
 }
 .grid-3col .bronze h2,
 .grid-3col .silver h2,
