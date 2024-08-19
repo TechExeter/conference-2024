@@ -14,9 +14,10 @@ featured_image: ../assets/images/pages/DSC_9659.jpg
   </header>
     <p>For the past nine years, we’ve held Exeter’s only grass-roots tech conference, a sell-out event which attracts local and national speakers across a broad range of themes for our ever expanding tech & digital community.</p>
     <p>We're a not-for-profit community interest company - your sponsorship monies go directly into helping us to put on events like this - we don't take a salary!</p>
-    <blockquote>“Tech Exeter and Digital Exeter are at the heart of the tech community in this beautiful city, where innovation is supported by leading incubators like SETsquared” - Tech Nation</blockquote>
-    <blockquote>“My organisation (NHS Digital) and myself needs to be more involved in the TechExeter scene, I think it is really great to see this stuff going on”</blockquote>
     <blockquote>“It's great that the Tech Exeter Conference has started from a grassroots level and is now a pull for developers from across the South West”</blockquote>
+    <blockquote>“Myself and fellow intern learnt lots about tech businesses, marketing and more which we can carry forward with us in our future careers! Was a great day meeting such talented professionals!”</blockquote>
+    <blockquote>“Thanks again to you & the team for arranging yesterday. What a great group & incredibly engaging talks”</blockquote>
+    <blockquote>“My organisation (NHS Digital) and myself needs to be more involved in the TechExeter scene, I think it is really great to see this stuff going on”</blockquote>
     <h3>Our packages</h3>
     <hr/>
     <div class="grid-3col no-h-gutter sponsors">
