@@ -47,8 +47,8 @@ markup:
 
 params:
   author: TechExeter
-  authorimage: ../assets/images/global/author.webp
-  og_image: /images/tailbliss-cover.png
+  authorimage: /images/global/tech_exeter_highres_black.png
+  og_image: /images/web_square.jpg
   moto: "Annual Tech+Digital Conference"
   description: "Friday 1st November at the University of Exeter"
   disable_theme_toggle: false
