@@ -13,12 +13,16 @@
                     <p class="max-w-xl mx-auto mb-6 font-normal text-gray-900 lg:mx-0 xl:mb-2 md:text-lg xl:text-xl dark:text-gray-50">
                         {{ .Site.Params.Description}}
                     </p>
+                    <p class="max-w-xl mx-auto mt-12 font-normal text-gray-900 lg:mx-0 xl:mb-2 md:text-lg xl:text-xl dark:text-gray-50">
+                        <span class="border-2 border-solid p-4">Earlybird Tickets On Sale Now!</span>
+                    </p>
+                    
                 </div>
                 <div class="col-span-6">
-                    {{ $hero := resources.GetMatch "images/pages/group-pic-1.jpg" }}
+                    {{ $hero := resources.GetMatch "images/pages/web_square.jpg" }}
 
                     {{ $thumb := ($hero.Fill "400x400 webp q90") }}
-                    {{ $large := ($hero.Fill "576x576 webp q90") }}
+                    {{ $large := ($hero.Fill "800x800 webp q90") }}
 
                     <img srcset="
                         {{- with $thumb.RelPermalink -}}{{.}} 400w{{- end -}}

@@ -1552,6 +1552,10 @@ video {
   border-top-width: 2px;
 }
 
+.border-solid {
+  border-style: solid;
+}
+
 .border-double {
   border-style: double;
 }
@@ -1742,6 +1746,11 @@ video {
 .py-96 {
   padding-top: 24rem;
   padding-bottom: 24rem;
+}
+
+.py-4 {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
 }
 
 .pb-12 {
