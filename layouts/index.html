@@ -14,7 +14,21 @@
                         {{ .Site.Params.Description}}
                     </p>
                     <p class="max-w-xl mx-auto mt-12 font-normal text-gray-900 lg:mx-0 xl:mb-2 md:text-lg xl:text-xl dark:text-gray-50">
-                        <span class="border-2 border-solid p-4">Earlybird Tickets On Sale Now!</span>
+                    <!-- Noscript content for added SEO -->
+                    <noscript><a href="https://techexeter2024.eventbrite.co.uk" rel="noopener noreferrer" target="_blank"  class="border-2 border-solid p-4">Buy Tickets on Eventbrite</a></noscript>
+                    <!-- You can customise this button any way you like -->
+                    <button id="eventbrite-widget-modal-trigger-999053705527" type="button" class="border-2 border-solid p-4 bg-violet-800 hover:bg-violet-600 active:bg-violet-700">Earlybird Tickets On Sale Now!</button>
+
+                    <script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
+
+                    <script type="text/javascript">
+                        window.EBWidgets.createWidget({
+                            widgetType: 'checkout',
+                            eventId: '999053705527',
+                            modal: true,
+                            modalTriggerElementId: 'eventbrite-widget-modal-trigger-999053705527',
+                        });
+                    </script>
                     </p>
                     
                 </div>
