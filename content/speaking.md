@@ -16,7 +16,7 @@ featured_image: ../assets/images/pages/Tech-Exeter-2019-57a.jpg
 <li>Not sure about speaking? Why not give it a shot anyway! We have 3 tracks of talks to fill, plus monthly meetup events, so we need your submissions!</li>
 </ul>
 
-<div class="border-double border-white border-2 p-4 mb-4">Deadline for submissions is midnight on Tuesday August 27th 2024</div>
+<div class="border-double border-white border-2 p-4 mb-4">Deadline for submissions is <s>midnight on Tuesday August 27th 2024</s> EXTENDED: midnight on Tuesday Sept 3rd 2024</div>
 
 <div data-tf-live="01J3J15F3MCAFSYXYMBRKJJPH2"></div><script src="//embed.typeform.com/next/embed.js"></script>
 
