@@ -7,7 +7,7 @@ title: "Jacob Tomlinson"
 job_title: "Senior Software Engineer"
 company: "NVIDIA"
 track: "tech"
-slot_length: 30
+slot_length: 45
 slot_Type: "talk"
 slot_level: 1
 slot_title: "Building a career in Open Source"

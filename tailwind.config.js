@@ -1,4 +1,5 @@
 const defaultTheme = require('tailwindcss/defaultTheme')
+const colors = require('tailwindcss/colors')
 
 // tailwind.config.js
 module.exports = {
@@ -9,6 +10,9 @@ module.exports = {
       colors: {
         transparent: 'transparent',
         current: 'currentColor',
+        'track-data': colors.indigo,
+        'track-tech': colors.cyan,
+        'track-digital': colors.rose,
         'primary': {
           DEFAULT: '#6366F1',
           50: '#FFFFFF',
