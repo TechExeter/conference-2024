@@ -6,7 +6,7 @@ categories:
 title: "Jamie Steele"
 job_title: "Solution Leadership Consultant"
 company: "Version 1"
-track: "tech"
+track: "digital"
 slot_length: 45
 slot_Type: "talk"
 slot_level: 1

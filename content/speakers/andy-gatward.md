@@ -26,3 +26,5 @@ takeaways:
 ---
 
 Will complete later
+
+*** please expand ***

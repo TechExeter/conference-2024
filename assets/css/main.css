@@ -25,6 +25,10 @@ EmojiSymbols;
     color: white !important;
 }
 
+.speakers-list .tag.track { 
+    display:block;
+    margin-bottom:0.5em;
+}
 
 @media (max-width: 639px) {
     .grid-3col {
