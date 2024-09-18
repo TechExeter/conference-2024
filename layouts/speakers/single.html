@@ -1,0 +1,79 @@
+{{define "main"}}
+<article>
+  <header class="mb-4 bg-gradient-to-r from-primary-600 via-purple-500 to-violet-500">
+    <span class="py-96 font-black text-center text-white capitalize object-center">
+      <div class="imgarea h-64 w-64 mx-auto pt-4">
+        {{ with .Params.featured_image }}
+        {{ with resources.Get . }}
+        {{ $small := (.Resize "400x webp q80").RelPermalink }}
+        {{ $medium := (.Resize "550x webp q80").RelPermalink }}
+        {{ $large := (.Resize "900x webp q80").RelPermalink }}
+        {{ $featuredimage := (.Resize "1500x webp q80").RelPermalink }}
+        <img src="{{ $featuredimage }}" srcset="
+          {{- with $small -}}, {{.}} 400w{{- end -}}
+          {{- with $medium -}}, {{.}} 550w{{- end -}}
+          {{- with $large -}}, {{.}} 768w{{- end -}}
+          {{- with $featuredimage -}}, {{.}} 1100w{{- end -}}"
+            class="object-fill rounded-full overflow-hidden ring-4 ring-zinc-300/40 dark:ring-gray-900/40 shadow-neutral-100/20 dark:shadow-neutral-800/40"
+            width="100%" alt="{{ .Params.title }}" />
+        {{ end }}
+        {{ end }}
+      </div>
+      <h1 class="py-8 text-5xl ">
+        {{ .Title }}
+      </h1>
+      <h2 class="pb-4">
+        {{ .Params.job_title }} - {{ .Params.company }}
+      </h2>
+    </span>
+  </header>
+  <div class="max-w-4xl mx-auto mt-8 mb-2">
+    <div class="px-6">
+    <div class="md:flex flex-row flex-none gap-8">
+      <div class="basis-3/4 max-w-2xl mx-auto prose dark:prose-invert dark:text-white">
+        <h3 class="py-2 mb-4 text-5xl bg-clip-text text-transparent bg-gradient-to-r from-pink-500 to-violet-500">
+          {{ .Params.slot_title }}
+        </h3>
+        {{ partial "talk-info.html" . }}
+        <div class="px-2">
+          {{.Content}}
+        </div>
+        <div class="pb-8 border-t-4 border-indigo-500">
+          <h4>Key Takeaways</h4>
+          <ul>
+            {{ range .Params.takeaways }}
+            <li>{{ . }}</li>
+            {{ end }}
+          </ul>
+        </div>
+      </div>
+      <div class="bio-area basis-1/4" >
+        <div class="prose dark:bg-slate-200 bg-white dark:text-black p-2 border-l-4 border-indigo-500 md:-mt-12 shadow-lg ">
+          {{ with .Params.company_image }}
+          {{ with resources.Get . }}
+          {{ $small := (.Resize "400x webp q80").RelPermalink }}
+          {{ $medium := (.Resize "550x webp q80").RelPermalink }}
+          {{ $large := (.Resize "900x webp q80").RelPermalink }}
+          {{ $featuredimage := (.Resize "1500x webp q80").RelPermalink }}
+          <img src="{{ $featuredimage }}" srcset="
+            {{- with $small -}}, {{.}} 400w{{- end -}}
+            {{- with $medium -}}, {{.}} 550w{{- end -}}
+            {{- with $large -}}, {{.}} 768w{{- end -}}
+            {{- with $featuredimage -}}, {{.}} 1100w{{- end -}}"
+              class="object-fill"
+              width="100%" alt="{{ .Params.title }}" />
+          {{ end }}
+          {{ end }}
+          {{ range .Params.contact }}
+          <a href="{{ .url}}" class="block font-semibold" target="_blank" rel="noopener noreferrer">{{ .text }}</a>
+          {{ end }}
+          {{ range .Params.bio }}
+          <p class="italic">{{ . }}</p>
+          {{ end }}
+        </div>
+      </div>
+    </div>
+  </div>
+
+</article>
+{{end}}

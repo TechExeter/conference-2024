@@ -1,7 +1,7 @@
 ---
 title: "Speaking at TechExeter 2024"
 date: 2024-08-18T11:10:36+08:00
-draft: false
+draft: true
 language: en
 description: How to apply to speak at our annual conference
 featured_image: ../assets/images/pages/Tech-Exeter-2019-57a.jpg

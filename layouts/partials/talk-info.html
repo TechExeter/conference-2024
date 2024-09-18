@@ -1,0 +1,23 @@
+{{ if eq .Params.track "tech" }}
+<span class="tag track rounded-lg bg-indigo-700 text-white p-1 px-2  mr-2 text-nowrap">
+⌨️ Tech + Software
+</span>
+{{ else if eq .Params.track "data" }}
+<span class="tag track rounded-lg bg-cyan-700 text-white p-1 px-2 mr-2 text-nowrap">
+🤖 Data + AI
+</span>
+{{ else if eq .Params.track "digital" }}
+<span class="tag track rounded-lg bg-rose-700 text-white p-1 px-2 mr-2 text-nowrap">
+🚀 Business + Digital
+</span>
+{{ end }}
+<span class="rounded-lg bg-indigo-500 text-white p-1 px-2 mr-2">
+  {{ .Params.slot_length }} min {{ .Params.slot_type }}
+</span>
+<span class="rounded-lg bg-indigo-500 text-white p-1 px-2">{{ if eq .Params.slot_level 1 }}
+Entry level
+{{ else if eq .Params.slot_level 2 }}
+Intermediate
+{{ else if eq .Params.slot_level 3 }}
+Advanced
+{{ end }}</span>

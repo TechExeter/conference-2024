@@ -54,22 +54,22 @@ params:
   disable_theme_toggle: false
   disable_stay_uptodate: false
 
-  p1:
-    heading: "3 Talk Tracks, One Awesome Day"
-    image: "images/pages/tickets-1.jpg"
-    content:
-      - text: "We're back 1st Nov 2024 with 3 tracks and over 20 speakers covering:"
-      - text: "🤖 Data + AI"
-      - text: "⌨️ Tech + Software"
-      - text: "🚀 Digital + Marketing"
-      - text: "PLUS we're teaming up with the awesome people at PyData Exeter & Tech4Good to deliver our flagship event of the year!"
-
-  p2:
-    heading: "Call for speakers NOW OPEN"
-    image: "images/pages/call-for-speakers.jpg"
-    content:
-      - text: "We're now accepting entries to speak at this year's conference."
-      - text: "We'd like to get your talks, workshops and panel sessions on anything Tech/Digital"
+#  p1:
+#    heading: "🤖 Data + AI track"
+#    image: "images/pages/tickets-1.jpg"
+#    content:
+#      - text: "We've teamed up with the awesome people at PyData Exeter"
+#      - text: "🤖 Data + AI"
+#      - text: "⌨️ Tech + Software"
+#      - text: "🚀 Business + Digital"
+#      - text: "PLUS we're teaming up with the awesome people at PyData Exeter & Tech4Good to deliver our flagship event of the year!"
+# 
+#  p2:
+#    heading: "⌨️ Tech + Software track"
+#    image: "images/pages/call-for-speakers.jpg"
+#    content:
+#      - text: "We're now accepting entries to speak at this year's conference."
+#      - text: "We'd like to get your talks, workshops and panel sessions on anything Tech/Digital"
 #  p3:
 #    heading: "Backed by world-renowned investors"
 #    content:
@@ -119,10 +119,15 @@ params:
 
 menu:
   main:
-    - identifier: speaking
-      name: Apply to Speak
-      url: /speaking/
-      weight: 10
+#    - identifier: speaking
+#      name: Apply to Speak
+#      url: /speaking/
+#      weight: 10
+
+#    - identifier: speakers
+#      name: Speakers
+#      url: /speakers/
+#      weight: 10
     - identifier: sponsorship
       name: Sponsorship
       url: /sponsorship/
