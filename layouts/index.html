@@ -112,7 +112,7 @@
                         {{ $p1image := resources.Get "images/pages/sponsor_okta.png" }}
                         {{ with $p1image }}
                         {{ with .Resize (printf "%dx%d webp q90" .Width .Height) }}
-                        <a href="/sponsors#okta">
+                        <a href="/sponsorship#okta">
                             <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" class="mt-1 w-60 h-auto p-6 rounded-lg bg-gradient-to-r from-cyan-500 to-emerald-500" alt="Pydata Logo" loading="lazy" />
                         </a>
                         {{ end }}
@@ -235,6 +235,7 @@
     </div>
 
     <!-- Blog section -->
+    {{ if false }}
     <div class="relative px-1 pt-8 pb-4 bg-transparent lg:px-8 lg:pt-12 lg:mb-4 md:mt-12">
         <div class="absolute inset-0">
             <div class="bg-gray-200 dark:bg-gray-900/50 h-1/3 sm:h-2/3"></div>
@@ -282,6 +283,7 @@
             </div>
         </div>
     </div>
+    {{ end }}
 
     {{ if not .Site.Params.Disable_stay_uptodate}}
     <!-- CTA section -->

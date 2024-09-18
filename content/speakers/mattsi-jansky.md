@@ -12,7 +12,7 @@ slot_Type: "talk"
 slot_level: 1
 slot_title: "Rust 101: Understand the Hype"
 summary: "Rust 101: Understand the Hype"
-#featured_image: /images/speakers/---.jpg
+featured_image: /images/speakers/mattsi-jansky.jpg
 #company_image: /images/speakers/---company.png
 contact:
 -  text: "@mattsi"

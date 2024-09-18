@@ -124,10 +124,10 @@ menu:
 #      url: /speaking/
 #      weight: 10
 
-    - identifier: speakers
-      name: Speakers
-      url: /speakers/
-      weight: 10
+#    - identifier: speakers
+#      name: Speakers
+#      url: /speakers/
+#      weight: 10
     - identifier: sponsorship
       name: Sponsorship
       url: /sponsorship/

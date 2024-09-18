@@ -15,8 +15,8 @@ summary: "Networking Europe’s largest radio station"
 #featured_image: /images/speakers/---.jpg
 #company_image: /images/speakers/---company.png
 contact:
-- text: "@hexydec"
-  url: https://x.com/hexydec
+- text: "LinkedIn"
+  url: https://www.linkedin.com/in
 bio:
 - TBC
 takeaways:
