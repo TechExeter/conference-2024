@@ -21,6 +21,8 @@ contact:
    url: https://www.linkedin.com/in/craigbuckler
 -  text: Website
    url: https://www.craigbuckler.com
+-  text: Github
+   url: https://github.com/craigbuckler
 bio:
 - Craig is a freelance developer, author, and speaker who's been on the web since the early days (including IE1.0 - that's why he looks so old).
 - He's consulted for many companies, authored several books, and written a few thousand tutorials for SitePoint, O'Reilly and others.

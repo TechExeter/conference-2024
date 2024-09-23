@@ -46,6 +46,12 @@
             {{ end }}
           </ul>
         </div>
+        {{ if .Params.bio_extended }}
+        <h3>Bio (continued)</h3>
+        {{ range .Params.bio_extended }}
+        <div class="px-2 py-4">{{ . }}</div>
+        {{ end }}
+        {{ end }}
       </div>
       <div class="bio-area basis-1/4" >
         <div class="prose dark:bg-slate-200 bg-white dark:text-black p-2 border-l-4 border-indigo-500 md:-mt-12 shadow-lg ">
@@ -76,4 +82,9 @@
   </div>
 
 </article>
+
+<div class="py-8 text-center text-white">
+  <span class="rounded-lg bg-indigo-500 text-white p-1 px-4"><a href="/speakers"> &laquo; Back to speaker list</a></span>
+
+</div>
 {{end}}

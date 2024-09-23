@@ -1,13 +1,22 @@
+{{ $bg := "" }}
+{{ if eq .Params.track "tech"  }}
+{{    $bg = "bg-indigo-700" }}
+{{ else if eq .Params.track "data" }}
+{{    $bg = "bg-cyan-700" }}
+{{ else if eq .Params.track "digital" }}
+{{    $bg = "bg-rose-700" }}
+{{ end }}
+
 {{ if eq .Params.track "tech" }}
-<span class="tag track rounded-lg bg-indigo-700 text-white p-1 px-2  mr-2 text-nowrap">
+<span class="tag track rounded-lg {{ $bg }} text-white p-1 px-2  mr-2 text-nowrap">
 ⌨️ Tech + Software
 </span>
 {{ else if eq .Params.track "data" }}
-<span class="tag track rounded-lg bg-cyan-700 text-white p-1 px-2 mr-2 text-nowrap">
+<span class="tag track rounded-lg {{ $bg }} text-white p-1 px-2 mr-2 text-nowrap">
 🤖 Data + AI
 </span>
 {{ else if eq .Params.track "digital" }}
-<span class="tag track rounded-lg bg-rose-700 text-white p-1 px-2 mr-2 text-nowrap">
+<span class="tag track rounded-lg {{ $bg }} text-white p-1 px-2 mr-2 text-nowrap">
 🚀 Business + Digital
 </span>
 {{ end }}

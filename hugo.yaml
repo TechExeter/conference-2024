@@ -45,6 +45,9 @@ markup:
       unsafe: true
       xhtml: false
 
+pagination:
+  pagerSize: 25
+
 params:
   author: TechExeter
   authorimage: /images/global/tech_exeter_highres_black.png
@@ -102,16 +105,16 @@ params:
   social_media:
     github:
       enabled: false
-      url: 'https://github.com/nusserstudios'
+      url: 'https://github.com/'
     facebook:
       enabled: false
-      url: 'https://facebook.com/nusserstudios'
+      url: 'https://facebook.com/'
     instagram:
       enabled: true
       url: 'https://instagram.com/techexeter'
     twitter:
       enabled: false
-      url: 'https://twitter.com/nusserstudios'
+      url: 'https://twitter.com/'
     youtube:
       enabled: true
       url: 'https://www.youtube.com/@techexeter'
@@ -124,10 +127,10 @@ menu:
 #      url: /speaking/
 #      weight: 10
 
-#    - identifier: speakers
-#      name: Speakers
-#      url: /speakers/
-#      weight: 10
+    - identifier: speakers
+      name: Speakers
+      url: /speakers/
+      weight: 10
     - identifier: sponsorship
       name: Sponsorship
       url: /sponsorship/

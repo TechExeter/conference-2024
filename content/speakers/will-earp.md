@@ -12,13 +12,14 @@ slot_Type: "talk"
 slot_level: 2
 slot_title: "StopNCII.org - Preventing Non-Consentual Intimate Image Abuse"
 summary: "StopNCII.org - Preventing Non-Consentual Intimate Image Abuse"
-#featured_image: /images/speakers/---.jpg
-#company_image: /images/speakers/---company.png
+featured_image: /images/speakers/will-earp.jpg
+company_image: /images/speakers/will-earp-swgfl-strap.png
 contact:
 - text: "@hexydec"
   url: https://x.com/hexydec
 bio:
-- Professional software engineer for 25+ years and still learning everyday. Tech lead @swgfl_official , developing FOSS, and helping people in tech. Online Safety advocate. Strives for usable and efficient software.
+- Professional software engineer for 25+ years and still learning everyday. Tech lead @swgfl_official , developing FOSS, and helping people in tech.
+- Online Safety advocate. Strives for usable and efficient software.
 takeaways:
 - To gain a greater understanding of some of the challenges users are facing with the rise of the web and social media
 - To see what is being done to address these issues, and 

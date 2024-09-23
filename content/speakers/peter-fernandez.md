@@ -4,21 +4,22 @@ language: en
 categories:
 - speakers
 title: "Peter Fernandez"
-job_title: "Principal Developer Advocate - Auth0 by Okta"
+job_title: "Principal Developer Advocate - Auth0"
 company: "Okta"
 track: "tech"
 slot_length: 30
 slot_Type: "talk"
 slot_level: 2
-slot_title: "Eye Spy your API"
-summary: "Eye Spy your API"
-#featured_image: /images/speakers/---.jpg
-#company_image: /images/speakers/---company.png
+slot_title: "Eye Spy an API"
+summary: "How to protect access to your Resources Servers and prevent unwanted access using OAuth 2.0"
+featured_image: /images/speakers/peter-fernandez.jpg
+company_image: /images/pages/sponsor_okta.png
 contact:
 -  text: LinkedIn
    url: https://www.linkedin.com/in/pgfernandez/
 bio:
-- As an Architect, Consultant and Engineer, Peter has more than 30 years of experience designing and developing secure and robust software solutions. When not helping teams with the complexities of Customer Identity, you can usually find him working behind the scenes, acting in or directing a show at his local theatre.
+- As an Architect, Consultant and Engineer, Peter has more than 30 years of experience designing and developing secure and robust software solutions. 
+- When not helping teams with the complexities of Customer Identity, you can usually find him working behind the scenes, acting in or directing a show at his local theatre.
 takeaways:
 - What are APIs
 - What is OAuth 2.0
