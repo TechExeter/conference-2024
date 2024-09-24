@@ -21,7 +21,6 @@ contact:
    url: https://www.matt.si
 bio:
 - Mattsi is an ambitious software developer that loves to learn and believes in "doing it right the first time", putting quality software first. He is a programming polygot with experience across dotnet, Java, JS & TS, NodeJS, React, Angular and more from a broad career touching on education, e-commerce, finance, and healthcare. Over the past few years he has developed a keen interest in Rust, and spoke at the UK's first Rust conference.
-
 - Outside of software he enjoys music and festivals, chess and tabletop games, and takes an enthusiastic interest in science, technology, and self-improvement.
 takeaways:
 - Familiarity with / an introduction to the Rust programming language

@@ -38,6 +38,7 @@
         <div class="px-2">
           {{.Content}}
         </div>
+        {{ if .Params.takeaways }}
         <div class="pb-8 border-t-4 border-indigo-500">
           <h4>Key Takeaways</h4>
           <ul>
@@ -46,6 +47,7 @@
             {{ end }}
           </ul>
         </div>
+        {{ end }}
         {{ if .Params.bio_extended }}
         <h3>Bio (continued)</h3>
         {{ range .Params.bio_extended }}
