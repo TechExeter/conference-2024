@@ -10,14 +10,14 @@
                     <h2 class="pb-2 text-3xl font-light text-gray-800 dark:text-gray-300 md:text-4xl">
                         {{ .Site.Params.Moto }}
                     </h2>
-                    <p class="max-w-xl mx-auto mb-6 font-normal text-gray-900 lg:mx-0 xl:mb-2 md:text-lg xl:text-xl dark:text-gray-50">
+                    <p id="description" class="max-w-xl mx-auto mb-6 font-normal text-gray-900 lg:mx-0 xl:mb-2 md:text-lg xl:text-xl dark:text-gray-50">
                         {{ .Site.Params.Description}}
                     </p>
                     <p class="max-w-xl mx-auto mt-12 font-normal text-gray-900 lg:mx-0 xl:mb-2 md:text-lg xl:text-xl dark:text-gray-50">
                     <!-- Noscript content for added SEO -->
                     <noscript><a href="https://techexeter2024.eventbrite.co.uk" rel="noopener noreferrer" target="_blank"  class="border-2 border-solid p-4">Buy Tickets on Eventbrite</a></noscript>
                     <!-- You can customise this button any way you like -->
-                    <button id="eventbrite-widget-modal-trigger-999053705527" type="button" class="text-gray-50 border-2 border-solid p-4 bg-violet-800 hover:bg-violet-600 active:bg-violet-700">Tickets On Sale Now!</button>
+                    <button id="eventbrite-widget-modal-trigger-999053705527" type="button" class="text-gray-50 border-2 border-solid p-4 bg-violet-800 hover:bg-violet-600 active:bg-violet-700">🎫 Get your ticket</button>
 
                     <script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
 
@@ -42,6 +42,74 @@
                         {{- with $thumb.RelPermalink -}}{{.}} 400w{{- end -}}
                         {{- with $large.RelPermalink -}}, {{.}} 576w{{- end -}}" src="{{ $hero.RelPermalink }}" width="100%" height="" alt="TailBliss Hero" class="w-full max-w-xl mx-auto rounded-lg" />
                 </div>
+            </div>
+        </div>
+    </div>
+
+
+    <!-- CTA section -->
+    <div class="relative pb-16 mt-6">
+        <div class="max-w-md mx-auto px-7 sm:max-w-3xl lg:max-w-7xl">
+            <div class="relative px-6 py-10 overflow-hidden shadow-xl bg-primary-500 rounded-2xl sm:px-12">
+                <div aria-hidden="true" class="absolute inset-0 -mt-72 sm:-mt-32 md:mt-0">
+                    <svg class="absolute inset-0 w-full h-full" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1463 360" loading="lazy">
+                        <path class="text-primary-600 text-opacity-40" fill="currentColor" d="M-82.673 72l1761.849 472.086-134.327 501.315-1761.85-472.086z" />
+                        <path class="text-primary-600 text-opacity-40" fill="currentColor" d="M-217.088 544.086L1544.761 72l134.327 501.316-1761.849 472.086z" />
+                    </svg>
+                </div>
+                <div class="relative">
+                    <div class=" text-primary-100 text-lg">
+                        <h2 class="sm:text-center text-3xl font-bold tracking-tight text-white sm:text-4xl">
+                            Why should you attend?
+                        </h2>
+                        <p class="mt-6">
+                            We've got a full day of activities for everyone of any technical ability - a packed schedule of 20+ talks, a fascinating keynote, and networking opportunities for you to enjoy. Hot food catering, sponsor booths, some exclusive merchandise and a few surprises too...
+                        </p>
+                        <p class="mt-2">
+                            <em>Plus, our legendary <strong>Conference Badge Game</strong> with prizes to be won!</em>
+                        </p>
+                        <h2 class="mt-6 sm:text-center text-3xl font-bold tracking-tight text-white sm:text-4xl">
+                            Who is speaking?
+                        </h2>
+                        <p class="mt-2">
+                            You can find our <a href="/speakers" class="underline">speaker bios here</a>, and we'll be adding more as we get closer to the event. Our speaker lineup include representatives from:
+                        </p>
+                        <ul class="mt-2 ml-6 list-disc">
+                            <li>NVIDIA</li>
+                            <li>BBC</li>
+                            <li>Okta</li>
+                            <li>University of Exeter</li>
+                            <li>Exeter College</li>
+                            <li>AI Safety Institute</li>
+                            <li>Landmark Information Group</li>
+                        </ul>
+
+                        <h2 class="mt-6 sm:text-center text-3xl font-bold tracking-tight text-white sm:text-4xl">
+                            Who comes to an event like this?
+                        </h2>
+                        <p class="mt-2">
+                            Our attendees come from all walks of life, from students to professionals across all disciplines. Whether you're a student studying business, a marketer in a digital agency, a CTO of a high-growth tech firm or just interested in tech - we've got something for you!
+                        </p>
+                        <div class="leading-loose italic font-semibold">
+                            <blockquote class="bg-indigo-800/75 my-2 p-1 rounded-tl-lg rounded-br-lg">
+                                “It's great that the Tech Exeter Conference has started from a grassroots level and is now a pull for developers from across the South West”
+                            </blockquote>
+                            <blockquote class="bg-indigo-800/75 my-2 p-1 rounded-tl-lg rounded-br-lg">
+                                “Myself and fellow intern learnt lots about tech businesses, marketing and more which we can carry forward with us in our future careers! Was a great day meeting such talented professionals!”
+                            </blockquote>
+                            <blockquote class="bg-indigo-800/75 my-2 p-1 rounded-tl-lg rounded-br-lg">
+                                “Thanks again to you & the team for arranging yesterday. What a great group & incredibly engaging talks”
+                            </blockquote>
+                            <blockquote class="bg-indigo-800/75 my-2 p-1 rounded-tl-lg rounded-br-lg">
+                                “My organisation (NHS Digital) and myself needs to be more involved in the TechExeter scene, I think it is really great to see this stuff going on”
+                            </blockquote>
+                        </div>
+                        <p class="mt-6">
+                            <strong><a href="#description">You can't afford to miss out!</a></strong>
+                        </p>
+                    </div>
+
+
             </div>
         </div>
     </div>
@@ -113,7 +181,7 @@
                         {{ with $p1image }}
                         {{ with .Resize (printf "%dx%d webp q90" .Width .Height) }}
                         <a href="/sponsorship#okta">
-                            <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" class="mt-1 w-60 h-auto p-6 rounded-lg bg-gradient-to-r from-cyan-500 to-emerald-500" alt="Pydata Logo" loading="lazy" />
+                            <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" class="mt-1 w-60 h-auto p-6 rounded-lg bg-gradient-to-r from-cyan-500 to-emerald-500" alt="Okta Logo" loading="lazy" />
                         </a>
                         {{ end }}
                         {{ end }}
@@ -285,78 +353,6 @@
     </div>
     {{ end }}
 
-    {{ if not .Site.Params.Disable_stay_uptodate}}
-    <!-- CTA section -->
-    <div class="relative pb-16 mt-6">
-        <div class="max-w-md mx-auto px-7 sm:max-w-3xl lg:max-w-7xl">
-            <div class="relative px-6 py-10 overflow-hidden shadow-xl bg-primary-500 rounded-2xl sm:px-12 sm:py-20">
-                <div aria-hidden="true" class="absolute inset-0 -mt-72 sm:-mt-32 md:mt-0">
-                    <svg class="absolute inset-0 w-full h-full" preserveAspectRatio="xMidYMid slice" xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 1463 360" loading="lazy">
-                        <path class="text-primary-600 text-opacity-40" fill="currentColor" d="M-82.673 72l1761.849 472.086-134.327 501.315-1761.85-472.086z" />
-                        <path class="text-primary-600 text-opacity-40" fill="currentColor" d="M-217.088 544.086L1544.761 72l134.327 501.316-1761.849 472.086z" />
-                    </svg>
-                </div>
-                <div class="relative">
-                    <div class="sm:text-center">
-                        <h2 class="text-3xl font-bold tracking-tight text-white sm:text-4xl">
-                            {{ .Site.Params.P5.Heading }}
-                        </h2>
-                        {{ range .Site.Params.P5.Content }}
-                        <p class="max-w-2xl mx-auto mt-6 text-lg text-primary-100">
-                            {{ .text }}
-                        </p>
-                        {{ end }}
-                    </div>
-
-
-                    <div id="mc_embed_shell" class=" text-white">
-                        <link href="//cdn-images.mailchimp.com/embedcode/classic-061523.css" rel="stylesheet" type="text/css">
-                  <div id="mc_embed_signup">
-                      <form action="https://techexeter.us13.list-manage.com/subscribe/post?u=b4eb19f31ed535a360131cde0&amp;id=0896f232b9&amp;f_id=00248aeaf0" method="post" id="mc-embedded-subscribe-form" name="mc-embedded-subscribe-form" class="validate" target="_blank">
-                          <div id="mc_embed_signup_scroll"><h2>Subscribe</h2>
-                              <div class="indicates-required"><span class="asterisk">*</span> indicates required</div>
-                              <div class="mc-field-group">
-                                <label for="mce-EMAIL">Email Address <span class="asterisk">*</span></label><input type="email" name="EMAIL" class="required email" id="mce-EMAIL" required="" value="">
-                            </div>
-                              <div class="mc-field-group">
-                                <label for="mce-FNAME">First Name </label><input type="text" name="FNAME" class=" text" id="mce-FNAME" value="">
-                            </div>
-                            <div class="mc-field-group">
-                                <label for="mce-LNAME">Last Name </label><input type="text" name="LNAME" class=" text" id="mce-LNAME" value="">
-                            </div>
-                            <div class="mc-field-group">
-                                <label for="mce-COMPANY">Company Name </label><input type="text" name="COMPANY" class=" text" id="mce-COMPANY" value="">
-                            </div>
-                            <div class="mc-field-group input-group"><strong>Topic Preferences </strong>
-                                <ul>
-                                    <li><input type="checkbox" name="group[6081][1]" id="mce-group[6081]-6081-0" value=""><label for="mce-group[6081]-6081-0" class=" px-2">Meetups and Events</label></li>
-                                    <li><input type="checkbox" name="group[6081][2]" id="mce-group[6081]-6081-1" value=""><label for="mce-group[6081]-6081-1" class=" px-2">Conferences</label></li>
-                                    <li><input type="checkbox" name="group[6081][4]" id="mce-group[6081]-6081-2" value=""><label for="mce-group[6081]-6081-2" class=" px-2">Tech and Local News</label></li>
-                                </ul>
-                            </div>
-                  <div hidden=""><input type="hidden" name="tags" value="7217550"></div>
-                          <div id="mce-responses" class="clear foot">
-                              <div class="response" id="mce-error-response" style="display: none;"></div>
-                              <div class="response" id="mce-success-response" style="display: none;"></div>
-                          </div>
-                      <div style="position: absolute; left: -5000px;" aria-hidden="true">
-                          <input type="text" name="b_b4eb19f31ed535a360131cde0_0896f232b9" tabindex="-1" value="">
-                      </div>
-                          <div class="optionalParent">
-                              <div class="clear foot">
-                                  <input type="submit" name="subscribe" id="mc-embedded-subscribe" class="button" value="Subscribe">
-                                  <p style="margin: 0px auto;"><a href="http://eepurl.com/iXgVEg" title="Mailchimp - email marketing made easy and fun"><span style="display: inline-block; background-color: black; border-radius: 4px;"><img class="refferal_badge" src="https://digitalasset.intuit.com/render/content/dam/intuit/mc-fe/en_us/images/intuit-mc-rewards-text-light.svg" alt="Intuit Mailchimp" style="width: 220px; height: 40px; display: flex; padding: 2px 0px; justify-content: center; align-items: center;"></span></a></p>
-                              </div>
-                          </div>
-                      </div>
-                  </form>
-                  </div>
-                  <script type="text/javascript" src="//s3.amazonaws.com/downloads.mailchimp.com/js/mc-validate.js"></script><script type="text/javascript">(function($) {window.fnames = new Array(); window.ftypes = new Array();fnames[0]='EMAIL';ftypes[0]='email';fnames[1]='FNAME';ftypes[1]='text';fnames[2]='LNAME';ftypes[2]='text';fnames[3]='COMPANY';ftypes[3]='text';}(jQuery));var $mcj = jQuery.noConflict(true);</script></div>
-                </div>
-            </div>
-        </div>
-    </div>
-    {{ end }}
 
 </main>
 {{ end }}

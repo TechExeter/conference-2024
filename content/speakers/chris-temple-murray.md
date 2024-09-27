@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 language: en
 categories:
 - speakers
@@ -12,7 +12,7 @@ slot_Type: "talk"
 slot_level: 1
 slot_title: "Harnessing AI to develop a fully inclusive learning environment"
 summary: "Harnessing AI to develop a fully inclusive learning environment"
-#featured_image: /images/speakers/---.jpg
+featured_image: /images/speakers/chris-temple-murray.jpg
 #company_image: /images/speakers/---company.png
 contact:
 -  text: "@devonteacher"

@@ -1,17 +1,13 @@
 ---
-title: "Sponsorship Opportunities"
+title: "Event Sponsorship"
 date: 2024-08-18T11:10:36+08:00
 draft: false
 language: en
 description: Help support the South West's oldest grass roots tech community
 featured_image: ../assets/images/pages/DSC_9659.jpg
+layout: sponsorship
 ---
 <article class="post sponsor-page">
-  <header> 
-    <div class="title">
-      <h1>Become a sponsor</h1>
-    </div>
-  </header>
     <p>For the past nine years, we’ve held Exeter’s only grass-roots tech conference, a sell-out event which attracts local and national speakers across a broad range of themes for our ever expanding tech & digital community.</p>
     <p>We're a not-for-profit community interest company - your sponsorship monies go directly into helping us to put on events like this - we don't take a salary!</p>
     <blockquote>“It's great that the Tech Exeter Conference has started from a grassroots level and is now a pull for developers from across the South West”</blockquote>
@@ -86,7 +82,7 @@ featured_image: ../assets/images/pages/DSC_9659.jpg
         plus it'll sponsor one of our reduced-cost tickets</p>
       <hr/>	
       <p id="apply">To find out more about any of these packages, please get in touch.</p>
-      <form style="padding: 0.5em; margin: 0.5em;" action="https://formspree.io/f/xvodbwaq" method="POST">
+      <form style="padding: 1em;" action="https://formspree.io/f/xvodbwaq" method="POST" class=" bg-indigo-800 rounded-2xl">
       <div class="grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-1">
       <div class="sm:col-span-full">
           <label for="name" class="block text-sm font-medium leading-6">
