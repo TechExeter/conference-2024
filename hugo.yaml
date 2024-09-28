@@ -126,7 +126,10 @@ menu:
 #      name: Apply to Speak
 #      url: /speaking/
 #      weight: 10
-
+    - identifier: tickets
+      name: Tickets / Event Info
+      url: /tickets/
+      weight: 5
     - identifier: speakers
       name: Speakers
       url: /speakers/
@@ -135,22 +138,6 @@ menu:
       name: Sponsorship
       url: /sponsorship/
       weight: 20
-#    - identifier: about
-#      name: About
-#      url: /about/
-#      weight: 20
-#    - identifier: categories
-#      pre: dropdown
-#      name: Categories
-#      weight: 30
-#    - identifier: dropdown
-#      pre: complexdropdown
-#      name: Dropdown
-#      weight: 40
-#    - identifier: contact
-#      name: Contact
-#      url: /contact/
-#      weight: 50
 #  categories:
 #    - identifier: prose
 #      name: Prose
@@ -179,27 +166,23 @@ menu:
 #      post: "Take a look at your statistics"
 #      url: "#"
 #      weight: 30
-#  footer:
-#    - identifier: about
-#      name: About
-#      url: /about/
-#      weight: 10
-#    - identifier: blog
-#      name: Blog
-#      url: /categories/blog/
-#      weight: 20
-#    - identifier: news
-#      name: News
-#      url: /categories/news/
-#      weight: 30
-#    - identifier: prose
-#      name: Prose
-#      url: /prose/
-#      weight: 40
-#    - identifier: contact
-#      name: Contact
-#      url: /contact/
-#      weight: 50
+  footer:
+    - identifier: tickets
+      name: Tickets / Event Info
+      url: /tickets/
+      weight: 5
+    - identifier: speakers
+      name: Speakers
+      url: /speakers/
+      weight: 10
+    - identifier: sponsorship
+      name: Sponsorship
+      url: /sponsorship/
+      weight: 20
+    - identifier: contact
+      name: Contact
+      url: /contact/
+      weight: 30
 
 taxonomies:
   category: Categories

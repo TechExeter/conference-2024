@@ -82,7 +82,7 @@ layout: sponsorship
         plus it'll sponsor one of our reduced-cost tickets</p>
       <hr/>	
       <p id="apply">To find out more about any of these packages, please get in touch.</p>
-      <form style="padding: 1em;" action="https://formspree.io/f/xvodbwaq" method="POST" class=" bg-indigo-800 rounded-2xl">
+      <form style="padding: 1em;" action="https://formspree.io/f/xvodbwaq" method="POST" class=" bg-indigo-800 rounded-2xl text-white">
       <div class="grid grid-cols-1 gap-x-6 gap-y-8 sm:grid-cols-1">
       <div class="sm:col-span-full">
           <label for="name" class="block text-sm font-medium leading-6">

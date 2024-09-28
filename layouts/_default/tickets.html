@@ -1,0 +1,68 @@
+{{define "main" }}
+<article>
+  <header class="mb-4 bg-indigo-600">
+    <span class="py-96">
+      <h1 class="py-16 text-5xl font-black text-center text-white capitalize">
+        {{ .Title }}
+      </h1>
+    </span>
+  </header>
+  <div class="max-w-4xl mx-auto mt-8 mb-2">
+    <div class="">
+      {{ with .Params.featured_image }}
+      {{ with resources.Get . }}
+      {{ $small := (.Resize "400x webp q80").RelPermalink }}
+      {{ $medium := (.Resize "550x webp q80").RelPermalink }}
+      {{ $large := (.Resize "900x webp q80").RelPermalink }}
+      {{ $featuredimage := (.Resize "1500x webp q80").RelPermalink }}
+      <img src="{{ $featuredimage }}" srcset="
+        {{- with $small -}}, {{.}} 400w{{- end -}}
+        {{- with $medium -}}, {{.}} 550w{{- end -}}
+        {{- with $large -}}, {{.}} 768w{{- end -}}
+        {{- with $featuredimage -}}, {{.}} 1100w{{- end -}}"
+           class="object-fill overflow-hidden rounded-lg shadow-lg ring-4 ring-zinc-300/40 dark:ring-gray-900/40 shadow-neutral-100/20 dark:shadow-neutral-800/40"
+           width="100%" alt="{{ .Params.title }}" />
+      {{ end }}
+      {{ end }}
+    </div>
+  </div> 
+  <div class="pt-6 max-w-4xl grid sm:grid-cols-6 grid-cols-2 sm:gap-4 prose text-white dark:text-white mx-auto">
+    <div class="col-span-2 bg-slate-600 p-1 rounded-2xl mb-4 prose-headings:text-white prose-strong:text-white prose-a:text-white ">
+        <div class="title text-center">
+          <h2 class="mt-1">When</h2>
+          <p>Friday 1st November</p>
+          <p>9:00am - 5:00pm</p>
+          <h2 class="mt-1">Where</h2>
+            {{ $uoeb := resources.Get "images/pages/sponsor_uoeb.png" }}
+            <a href="https://business-school.exeter.ac.uk/about/" target="_blank">
+              <img imgh src="{{ $uoeb.RelPermalink }}" class="mt-1 w-60 h-auto p-2 rounded-lg bg-gradient-to-r from-white to-slate-200 mx-auto" alt="Okta Logo" loading="lazy" />
+            </a>
+            <p><strong>XFI and Building One</strong> at the University of Exeter Business School</p>
+            <p><a href="https://www.google.com/maps/d/u/1/edit?mid=1VRYIr9TLHGEbd6QLzr6SlspgiSjE95w&usp=sharing" target="_blank">Parking (EX4 4QD) and site directions (EX4 4PU)</a></p>
+        </div>
+    </div>
+    <div class="col-span-4">
+      <div class="px-6 pb-4 text-black dark:text-white dark:prose-headings:text-white dark:prose-a:text-white ">
+                
+          <!-- Noscript content for added SEO -->
+          <noscript><a href="https://techexeter2024.eventbrite.co.uk" rel="noopener noreferrer" target="_blank"  class="border-2 border-solid p-4">Buy Tickets on Eventbrite</a></noscript>
+          <!-- You can customise this button any way you like -->
+          <button id="eventbrite-widget-modal-trigger-999053705527" type="button" class="block text-center w-full text-gray-50 border-4 border-solid p-4 bg-violet-800 rounded-xl hover:bg-violet-600 active:bg-violet-700">Buy tickets from eventbrite</button>
+
+          <script src="https://www.eventbrite.co.uk/static/widgets/eb_widgets.js"></script>
+
+          <script type="text/javascript">
+              window.EBWidgets.createWidget({
+                  widgetType: 'checkout',
+                  eventId: '999053705527',
+                  modal: true,
+                  modalTriggerElementId: 'eventbrite-widget-modal-trigger-999053705527',
+              });
+          </script>
+          
+        {{.Content}}
+      </div>
+    </div>
+  </div>
+</article>
+{{end}}
