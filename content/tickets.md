@@ -20,7 +20,7 @@ Your ticket includes:
     * Access to the after party
     * Priority access to the session recordings after the event
 
-Money from this event goes back into the community to help run our other free events throughout the year (part of our <a href="https://techexeter.uk/about-us/" target="_blank">Community Interest Company mission statement</a>).
+Your £95 (+VAT + fees) ticket goes into paying our speakers, venue, logistics and catering fees. Leftover monies go back into the community to help keep our other events <em>free</em> throughout the year (part of our <a href="https://techexeter.uk/about-us/" target="_blank">Community Interest Company mission statement</a>).
 
 <h2>Low-income tickets</h2>
 
