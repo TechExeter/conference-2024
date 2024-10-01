@@ -1,5 +1,5 @@
 ---
-draft: true
+draft: false
 language: en
 categories:
 - speakers
@@ -7,12 +7,12 @@ title: "Art O Cathain"
 job_title: "Senior Engineer"
 company: "AI Safety Institute"
 track: "data"
-slot_length: 45
+slot_length: 30
 slot_Type: "talk"
 slot_level: 1
 slot_title: "AI Safety"
 summary: "AI Safety"
-#featured_image: /images/speakers/---.jpg
+featured_image: /images/speakers/art-o-cathain.jpg
 #company_image: /images/speakers/-company.png
 contact:
 #- text: "LinkedIn"
