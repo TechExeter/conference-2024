@@ -11,6 +11,8 @@ layout: tickets
 
 Can't see the button above? <a href="https://techexeter2024.eventbrite.co.uk" rel="noopener noreferrer" target="_blank">Click here to buy tickets on Eventbrite</a>
 
+You can also <a href="/contact/">contact us</a> to get tickets via invoice or purchase order.
+
 Your ticket includes:
 
     * Delegate welcome pack
