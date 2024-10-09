@@ -1174,6 +1174,10 @@ video {
   grid-column: span 6 / span 6;
 }
 
+.col-start-2 {
+  grid-column-start: 2;
+}
+
 .-mx-5 {
   margin-left: -1.25rem;
   margin-right: -1.25rem;
@@ -1245,6 +1249,10 @@ video {
   margin-left: 0.25rem;
 }
 
+.ml-2 {
+  margin-left: 0.5rem;
+}
+
 .ml-3 {
   margin-left: 0.75rem;
 }
@@ -1279,6 +1287,10 @@ video {
 
 .mt-8 {
   margin-top: 2rem;
+}
+
+.mt-4 {
+  margin-top: 1rem;
 }
 
 .block {
@@ -2418,8 +2430,8 @@ EmojiSymbols;
 }
 
 .speakers-list .tag.track {
-  display:block;
-  margin-bottom:0.5em;
+  display: block;
+  margin-top:0.5em;
 }
 
 @media (max-width: 639px) {

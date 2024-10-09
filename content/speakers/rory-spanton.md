@@ -8,7 +8,7 @@ job_title: "Behavioural Data Scientist"
 company: "Good With"
 track: "data"
 slot_length: 45
-slot_Type: "talk"
+slot_type: "talk"
 slot_level: 1
 slot_title: "Credit Risk as Psychological Readiness: The Behavioural Data Science of Financial Health"
 summary: "How 'Good With' uses behavioural data science to give lenders better information about “credit invisibles”, promoting fairer access to finance for all"
