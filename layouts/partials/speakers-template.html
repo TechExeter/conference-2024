@@ -22,13 +22,21 @@
                          loading="lazy" alt="{{ .Title }}" />
                     {{ end }}
                     {{ end }}
+                    {{ $nomask := false }}
+                    {{ if .Params.company_image_nomask }}
+                    {{ $nomask = true }}
+                    {{ end }}
                     {{ with .Params.company_image }}
                     {{ with resources.Get . }}
                     {{ $small := (.Resize "400x webp q80").RelPermalink }}
                     {{ $medium := (.Resize "550x webp q80").RelPermalink }}
                     {{ $large := (.Resize "900x webp q80").RelPermalink }}
                     {{ $featuredimage := (.Resize "1500x webp q80").RelPermalink }}
+                    {{ if $nomask }}
+                    <div class="absolute bottom-2 right-2 w-2/5 p-1">
+                    {{ else }}
                     <div class="absolute bottom-2 right-2 w-2/5 dark:bg-slate-200 bg-white rounded-lg p-1">
+                    {{ end }}
                     <img src="{{ $featuredimage }}" srcset="
                         {{- with $small -}}, {{.}} 400w{{- end -}}
                         {{- with $medium -}}, {{.}} 550w{{- end -}}
@@ -38,6 +46,12 @@
                         width="100%" alt="{{ .Params.title }}" />
                     </div>
                     {{ end }}
+                    {{ else }}
+                        {{ if .Params.company }}
+                        <div class="absolute bottom-2 right-2 dark:bg-slate-200 bg-white text-gray-900 font-bold rounded-lg p-2">
+                            {{ .Params.company }}
+                        </div>
+                        {{ end }}
                     {{ end }}
                 </a>
                 <div class="p-6">
