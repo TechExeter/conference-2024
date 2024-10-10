@@ -18,9 +18,6 @@ contact:
 bio:
 - Lili Eva Bartha is a seasoned Product Lead, XR and digital fashion specialist, and the founder and CEO of GENERA LABS, a multi-award winning software startup, developing cloud-based solutions for accessible and easy-to-use digital clothing design
 takeaways:
-- What is behavioural data science?
-- Understanding how we can apply this to modelling financial health
-- How behavioural data can be captured and modelled at scale
 ---
 
 The industry standard production pipeline for optimised digital clothing is complex and expensive. The demand for these assets is rapidly growing, fueled by the rise of brand activations in games and MMOGs (e.g. Roblox) as well as by the increasing focus on immersive e-commerce solutions such as AR filters for virtual try-on. 
