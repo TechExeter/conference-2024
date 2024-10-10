@@ -4,7 +4,7 @@ language: en
 categories:
 - speakers
 title: "Dr Liam Trimby"
-job_title: "Lead Data Scientist"
+job_title: "Head of Analytics"
 company: "Klarian Ltd"
 track: "data"
 slot_length: 30
