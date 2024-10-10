@@ -2,7 +2,7 @@
 {{ $pages := where $opages "Params.slot_type" "talk" }}
 {{ $pages = $pages | union (where $opages "Params.slot_type" "panel") }}
 
-{{ $paginator := .Paginate $pages.ByTitle 25 }}
+{{ $paginator := .Paginate ($pages.ByParam "first_name") 25 }}
 
 <div class="mx-auto text-gray-900 max-w-7xl dark:text-gray-50 speakers-list">
     <div class="px-4 not-prose">

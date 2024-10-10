@@ -4,6 +4,7 @@ language: en
 categories:
 - speakers
 title: "Rory Spanton"
+first_name: "Rory"
 job_title: "Behavioural Data Scientist"
 company: "Good With"
 track: "data"

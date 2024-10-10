@@ -4,6 +4,7 @@ language: en
 categories:
 - speakers
 title: "Peter Fernandez"
+first_name: "Peter"
 job_title: "Principal Developer Advocate - Auth0"
 company: "Okta"
 track: "tech"

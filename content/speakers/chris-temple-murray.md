@@ -4,6 +4,7 @@ language: en
 categories:
 - speakers
 title: "Chris Temple-Murray"
+first_name: "Chris"
 job_title: "Curriculum Area Manager (Esport) + Digital Leader"
 company: "Exeter College"
 track: "digital"

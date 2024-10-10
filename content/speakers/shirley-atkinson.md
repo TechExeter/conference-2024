@@ -1,19 +1,20 @@
 ---
-draft: true
+draft: false
 language: en
 categories:
 - speakers
 title: "Dr Shirley Atkinson"
+first_name: "Shirley"
 job_title: "Faculty Director for Data Science and AI Education"
 company: "University of Exeter Business School"
 track: "digital"
 slot_length: 30
 slot_Type: "talk"
 slot_level: 2
-slot_title: "Higher Education in AI landscape"
-summary: "Higher Education in AI landscape"
-#featured_image: /images/speakers/---.jpg
-#company_image: /images/speakers/---company.png
+slot_title: "Higher Education in the AI landscape"
+summary: "Higher Education in the AI landscape"
+featured_image: /images/speakers/shirley-atkinson.jpg
+company_image: /images/speakers/shirley-atkinson-uoeb.png
 contact:
 -  text: Website
    url: https://business-school.exeter.ac.uk/management/people/profile/index.php?username=sa1040
@@ -25,7 +26,7 @@ takeaways:
 - Overview of support for AI tools in Uni education
 ---
 
-Students at University have seen the impact that LLMs and other AI tools have had on how they can produce work for assessment. A number are concerned - quite rightfully - that they could be doing the “wrong thing”.  
+Students at University have seen the impact that LLMs and other AI tools have had on how they can produce work for assessment. A number are concerned - quite rightfully - that they could be doing the “wrong thing”.
 
 We know that collaboration and peer discussion is crucial to help students learn and to take their place in the ever moving tech environment.  The issue for us as educators is how to make sure that can happen without infringing plagiarism rules and ensuring the work is authentically that of the student submitting. 
 

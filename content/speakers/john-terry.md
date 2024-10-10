@@ -4,6 +4,7 @@ language: en
 categories:
 - speakers
 title: "John Terry"
+first_name: "John"
 job_title: "Interdisciplinary Professorial Fellow (University of Birmingham) | Co-Founder and MD"
 company: "Neuronostics"
 track: "tech"

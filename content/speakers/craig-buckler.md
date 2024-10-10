@@ -4,6 +4,7 @@ language: en
 categories:
 - speakers
 title: "Craig Buckler"
+first_name: "Craig"
 job_title: "Freelance web developer / tech author"
 company: ""
 track: "tech"

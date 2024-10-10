@@ -4,6 +4,7 @@ language: en
 categories:
 - speakers
 title: "Andy Gatward"
+first_name: "Andy"
 job_title: "Lead Architect"
 company: "BBC"
 track: "tech"

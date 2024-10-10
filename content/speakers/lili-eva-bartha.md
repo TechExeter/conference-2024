@@ -4,6 +4,7 @@ language: en
 categories:
 - speakers
 title: "Lili Eva Bartha"
+first_name: "Lili"
 job_title: "Founder & CEO"
 company: "GENERA LABS"
 track: "keynote"

@@ -4,6 +4,7 @@ language: en
 categories:
 - speakers
 title: "Namia Mohamed Ali"
+first_name: "Namia"
 job_title: "Data Scientist"
 company: ""
 track: "data"

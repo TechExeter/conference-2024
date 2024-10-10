@@ -4,6 +4,7 @@ language: en
 categories:
 - speakers
 title: "Alex Mecklenburg"
+first_name: "Alex"
 job_title: "Co-Founder"
 company: "Dot Project, Consequential CIC, Truth & Spectacle"
 track: "digital"

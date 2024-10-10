@@ -4,6 +4,7 @@ language: en
 categories:
 - speakers
 title: "Will Earp"
+first_name: "Will"
 job_title: "Digital Experience Manager"
 company: "South West Grid for Learning Trust"
 track: "tech"

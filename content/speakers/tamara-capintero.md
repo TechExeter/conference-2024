@@ -4,6 +4,7 @@ language: en
 categories:
 - speakers
 title: "Tamara Capintero"
+first_name: "Tamara"
 job_title: "Head of Data Engineering"
 company: "Landmark Information Group"
 track: "data"

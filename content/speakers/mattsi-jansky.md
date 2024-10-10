@@ -4,6 +4,7 @@ language: en
 categories:
 - speakers
 title: "Mattsi Jansky"
+first_name: "Mattsi"
 job_title: "Software Craftsman"
 company: "Codurance"
 track: "tech"

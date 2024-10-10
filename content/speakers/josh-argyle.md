@@ -4,6 +4,7 @@ language: en
 categories:
 - speakers
 title: "Josh Argyle"
+first_name: "Josh"
 job_title: "Lead Data Scientist"
 company: "Freyda"
 track: "data"

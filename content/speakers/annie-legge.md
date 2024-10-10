@@ -4,6 +4,7 @@ language: en
 categories:
 - speakers
 title: "Annie Legge"
+first_name: "Annie"
 job_title: "Co-Founder"
 company: "Tech4Good South West, Dot Project"
 track: "digital"

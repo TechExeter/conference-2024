@@ -4,6 +4,7 @@ language: en
 categories:
 - speakers
 title: "Jamie Steele"
+first_name: "Jamie"
 job_title: "Solution Leadership Consultant"
 company: "Version 1"
 track: "digital"

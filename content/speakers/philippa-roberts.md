@@ -4,6 +4,7 @@ language: en
 categories:
 - speakers
 title: "Philippa Roberts"
+first_name: "Philippa"
 job_title: "Co-founder and CEO"
 company: "Binit Group Ltd"
 track: "digital"

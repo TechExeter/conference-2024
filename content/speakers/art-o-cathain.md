@@ -4,6 +4,7 @@ language: en
 categories:
 - speakers
 title: "Art O Cathain"
+first_name: "Art"
 job_title: "Senior Engineer"
 company: "AI Safety Institute"
 track: "data"

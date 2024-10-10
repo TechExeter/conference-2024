@@ -4,6 +4,7 @@ language: en
 categories:
 - speakers
 title: "James Mayo"
+first_name: "James"
 job_title: "Senior business development leader"
 company: "Version 1"
 track: "digital"

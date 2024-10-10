@@ -4,6 +4,7 @@ language: en
 categories:
 - speakers
 title: "Jordan Hart"
+first_name: "Jordan"
 job_title: "CTO & co-founder"
 company: "Causa"
 track: "data"

@@ -4,6 +4,7 @@ language: en
 categories:
 - speakers
 title: "Cesar Angeles"
+first_name: "Cesar"
 job_title: "Head Data Scientist"
 company: "Yottar LTD"
 track: "data"

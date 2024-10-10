@@ -4,6 +4,7 @@ language: en
 categories:
 - speakers
 title: "Thomas Chartres-Moore"
+first_name: "Thomas"
 job_title: "Solicitor"
 company: "Stephens Scown LLP"
 track: "digital"

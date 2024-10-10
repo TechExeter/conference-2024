@@ -4,6 +4,7 @@ language: en
 categories:
 - speakers
 title: "Jacob Tomlinson"
+first_name: "Jacob"
 job_title: "Senior Software Engineer"
 company: "NVIDIA"
 track: "tech"
