@@ -24,10 +24,12 @@ Your ticket includes:
 
 Your £95 (+VAT + fees) ticket goes into paying our speakers, venue, logistics and catering fees. Leftover monies go back into the community to help keep our other events <em>free</em> throughout the year (part of our <a href="https://techexeter.uk/about-us/" target="_blank">Community Interest Company mission statement</a>).
 
-<h2>Low-income tickets</h2>
+<h2>Cheaper tickets?</h2>
 
-For those from a low-income household, students, or under financial hardship, we have a <em>limited number</em> of reduced cost tickets available for you. These tickets have been kindly funded by community donations and by our sponsors.
-<em>If you need more assistance to be able to attend the conference, <a href="/contact">drop us a message</a>!</em>
+For those from a low-income household, students, or under financial hardship, we have a <em>limited number</em> of reduced cost tickets available for you. These tickets have been kindly funded by community donations and by our sponsors. They're available on the eventbrite page.
+<em>If you need assistance to be able to attend the conference, <a href="/contact">drop us a message</a>!</em>
+
+We also do bulk discounts for organisations -  <a href="/contact">get in touch!</a>
 
 
 <h2>Location Map</h2>
