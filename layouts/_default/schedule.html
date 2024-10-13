@@ -152,6 +152,16 @@
 #schedule .item.lunch {
     padding:0.5em;
 }
+#schedule .item.keynote {
+  border-color: rgb(217 249 157);
+  border-width: 4px;
+  padding: 0 0.5em 0.5em 0.5em;
+  font-size:110%;
+}
+
+#schedule .item a:hover { 
+  text-decoration: underline;
+}
 
 </style>
 
@@ -175,6 +185,14 @@
       <a href="{{ .Permalink }}">
       {{ end }}
       <h2 class="font-bold">{{ .Params.slot_title }}</h2>
+      {{ if .Params.schedule_image }}
+        {{ $image := resources.Get .Params.schedule_image }}
+        {{ with $image }}
+        {{ with .Resize (printf "%dx%d webp q90" .Width .Height) }}
+            <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" class="my-1 w-40 h-auto p-1 rounded-lg bg-white" alt="Sponsored by Auth0 by Okta" loading="lazy" />
+        {{ end }}
+        {{ end }}
+      {{ end }}
       {{ if .Permalink }}
       </a>
       {{ end }}
@@ -197,33 +215,42 @@
   
     <div class="item head t1 bg-cyan-700" style="grid-area: t1head;" id="track_1">
     <h2 class="font-bold">Track 1 - Data &amp; AI</h2>
-    HENDERSON THEATRE, XFI
+    <h3>HENDERSON THEATRE, XFI</h3>
+    {{ $p1image := resources.Get "images/pages/pydata_exeter_logo.png" }}
+    {{ with $p1image }}
+    {{ with .Resize (printf "%dx%d webp q90" .Width .Height) }}
+    <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" class="w-40 h-auto p-2 rounded-lg bg-white" alt="Pydata Logo" loading="lazy" />
+    {{ end }}
+    {{ end }}
+    Hosted by the PyData Exeter team
     </div>
     <div class="item head t2 bg-indigo-700" style="grid-area: t2head;" id="track_2">
     <h2 class="font-bold">Track 2 - Tech &amp; Software</h2>
-    BATEMAN THEATRE, 1st floor<br/>
+    <h3>BATEMAN THEATRE, 1st floor</h3>
     {{ $p1image := resources.Get "images/pages/sponsor_okta.png" }}
     {{ with $p1image }}
     {{ with .Resize (printf "%dx%d webp q90" .Width .Height) }}
     <a href="/sponsorship#okta">
-        <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" class="mt-1 w-40 h-auto p-2 rounded-lg bg-gradient-to-r from-cyan-500 to-emerald-500" alt="Okta Logo" loading="lazy" />
+        <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" class="w-40 h-auto p-2 rounded-lg bg-white" alt="Sponsored by Auth0 by Okta" loading="lazy" />
+        <em>Sponsored By Auth0 by Okta</em>
     </a>
     {{ end }}
     {{ end }}
     </div>
     <div class="item head t3 bg-rose-700" style="grid-area: t3head;" id="track_3">
     <h2 class="font-bold">Track 3 - Business &amp; Digital</h2>
-    MATRIX THEATRE, 1st floor
+    <h3>MATRIX THEATRE, 1st floor</h3>
     </div>
   
     <div class="item t1-0830 bg-violet-900" style="grid-area: t1-0830">
       <div class="small-time">08.30</div>
       <h2 class="font-bold">Registration Opens</h2>
-      Tea, Coffee and Pastries
+      Tea, Coffee and Breakfast Pastries
     </div>
     <div class="item t1-0915 bg-violet-700" style="grid-area: t1-0915">
       <div class="small-time">09.15</div>
       <h2 class="font-bold">Opening Ceremony</h2>
+      Join us in the Henderson Theatre for the opening ceremony, followed by the keynote
     </div>
     <div class="item break break1 bg-violet-700" style="grid-area: break1">
       <div class="small-time">10.45</div>
