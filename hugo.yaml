@@ -101,7 +101,20 @@ params:
     label: "Email address"
     placeholder: "Enter your email"
     button: "Notify me"
-
+  sponsor:
+    logos:
+      - identifier: uoebs
+        image: "images/pages/sponsor_uoeb.png"
+        alt: " University of Exeter Business School"
+      - identifier: Okta
+        image: "images/pages/sponsor_okta.png"
+        alt: "Auth0 by Okta"
+      - identifier: Nexusmods
+        image: "images/pages/sponsor_nexusmods.png"
+        alt: "NexusMods"
+      - identifier: PyData
+        image: "images/pages/pydata_exeter_logo.png"
+        alt: "PyData Exeter"
   social_media:
     github:
       enabled: false
@@ -134,10 +147,14 @@ menu:
       name: Speakers
       url: /speakers/
       weight: 10
+    - identifier: schedule
+      name: Schedule
+      url: /schedule/
+      weight: 20
     - identifier: sponsorship
       name: Sponsorship
       url: /sponsorship/
-      weight: 20
+      weight: 30
 #  categories:
 #    - identifier: prose
 #      name: Prose
@@ -175,10 +192,14 @@ menu:
       name: Speakers
       url: /speakers/
       weight: 10
+    - identifier: schedule
+      name: Schedule
+      url: /schedule/
+      weight: 20      
     - identifier: sponsorship
       name: Sponsorship
       url: /sponsorship/
-      weight: 20
+      weight: 25
     - identifier: contact
       name: Contact
       url: /contact/

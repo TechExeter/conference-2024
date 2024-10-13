@@ -11,6 +11,8 @@ track: "tech"
 slot_length: 30
 slot_Type: "talk"
 slot_level: 2
+slot_track: "2"
+slot_time: "11.30"
 slot_title: "Networking Europe's largest radio station"
 summary: "Networking Europe's largest radio station"
 featured_image: /images/speakers/andy-gatward.jpg

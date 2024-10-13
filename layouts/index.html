@@ -75,9 +75,9 @@
                             You can find our <a href="/speakers" class="underline">speaker bios here</a>, and we'll be adding more as we get closer to the event. Our speaker lineup include representatives from:
                         </p>
                         <ul class="mt-2 ml-6 list-disc">
-                            <li>NVIDIA</li>
-                            <li>BBC</li>
                             <li>AWS</li>
+                            <li>The BBC</li>
+                            <li>NVIDIA</li>
                             <li>Okta</li>
                             <li>University of Exeter</li>
                             <li>Exeter College</li>
@@ -269,22 +269,22 @@
     </div>
 
     <!-- Sponsors section -->
-    {{ if false }}
-    <div class="max-w-md px-4 mx-auto md:pt-24 md:pb-16 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8">
-        <div class="lg:grid lg:grid-cols-2 lg:items-center lg:gap-24">
-            <div class="mt-12 grid grid-cols-2 gap-0.5 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
-                {{ range .Site.Params.P3.Logos }}
-                <div class="flex justify-center col-span-1 px-8 py-8 bg-gray-50 dark:bg-gray-900/10">
+    <div class="max-w-md px-4 mx-auto md:pt-24 md:pb-16 sm:max-w-3xl sm:px-6 lg:max-w-7xl lg:px-8  text-gray-900 dark:text-white">
+        <h2 class="text-3xl text-center my-4">Event Sponsors</h2>
+            <div class="mt-12 grid grid-cols-2 gap-2 md:grid-cols-3 lg:mt-0 lg:grid-cols-2">
+                {{ range .Site.Params.sponsor.Logos }}
+                <div class="px-8 py-4 bg-gray-50 rounded-lg text-center">
+                    <a href="/sponsorship">
                     {{ if .image }}
                     {{ $sponsor := resources.Get .image }}
-                    <img src="{{ $sponsor.RelPermalink }}" class="max-h-12 dark:invert" alt="{{ .alt }}" loading="lazy" />
-                    {{ else }}
-                    {{ $sponsor := resources.Get "images/global/sample-logo.svg" }}
-                    <img src="{{ $sponsor.RelPermalink }}" class="max-h-12 dark:invert" alt="{{ .alt }}" loading="lazy" />
+                    <img src="{{ $sponsor.RelPermalink }}" class="mx-auto max-h-24 block" alt="{{ .alt }}" loading="lazy" />
                     {{ end }}
+                    <p class="text-black">{{ .alt }}</p>
+                    </a>
                 </div>
                 {{ end }}
             </div>
+            <!--
             <div>
                 <h2 class="text-3xl font-bold tracking-tight text-gray-900 dark:text-gray-50 sm:text-4xl">
                     {{ .Site.Params.P3.Heading }}
@@ -302,9 +302,9 @@
                 </div>
                 {{ end }}
             </div>
-        </div>
+            -->
     </div>
-    {{ end }}
+    
 
     <!-- Blog section -->
     {{ if false }}

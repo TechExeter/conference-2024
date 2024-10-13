@@ -9,7 +9,9 @@ job_title: "Head Data Scientist"
 company: "Yottar LTD"
 track: "data"
 slot_length: 30
-slot_Type: "talk"
+slot_type: "talk"
+slot_track: "1"
+slot_time: "11.30"
 slot_level: 1
 slot_title: "How Digital Twins are helping Decarbonise the Energy Sector"
 summary: "How Digital Twins are helping Decarbonise the Energy Sector"

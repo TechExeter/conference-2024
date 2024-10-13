@@ -11,6 +11,8 @@ track: "data"
 slot_length: 30
 slot_Type: "talk"
 slot_level: 1
+slot_time: "12.30"
+slot_track: "1"
 slot_title: "AI Safety"
 summary: "AI Safety"
 featured_image: /images/speakers/art-o-cathain.jpg

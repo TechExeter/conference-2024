@@ -9,13 +9,16 @@ job_title: "Co-Founder"
 company: "Dot Project, Consequential CIC, Truth & Spectacle"
 track: "digital"
 slot_length: 60
-slot_type: "panel"
+slot_type: "workshop"
 slot_level: 1
+slot_time: "14.45"
+slot_track: "3"
 slot_title: "Tech4Good Takover Session 2: Workshop"
 summary: "Tech4Good Takover Session 2: Workshop"
 featured_image: /images/speakers/alex-mecklenburg.jpg
 company_image: /images/speakers/alex-mecklenburg-DOTPROJECT.png
-co-presenting: alex-mecklenburg 
+co_presenting: annie-legge 
+co_presenting_text: Annie Legge 
 contact:
 #- text: "LinkedIn"
 #  url: https://www.linkedin.com/in

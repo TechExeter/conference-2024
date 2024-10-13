@@ -7,8 +7,10 @@ title: "Thomas Chartres-Moore"
 first_name: "Thomas"
 job_title: "Solicitor"
 company: "Stephens Scown LLP"
-track: "digital"
+track: "data"
 slot_length: 45
+slot_track: "1"
+slot_time: "10.00"
 slot_Type: "talk"
 slot_level: 1
 slot_title: "AI in real life - the rules and regulations that are here now, coming soon and might never happen"

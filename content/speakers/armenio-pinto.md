@@ -11,6 +11,8 @@ track: "digital"
 slot_length: 30
 slot_Type: "talk"
 slot_level: 1
+slot_track: "3"
+slot_time: "16.00"
 slot_title: "Behind the Cloud: How Amazon’s Day 1 Culture Drives Innovation at AWS"
 summary: "Behind the Cloud: How Amazon’s Day 1 Culture Drives Innovation at AWS"
 featured_image: /images/speakers/armenio-pinto.jpg

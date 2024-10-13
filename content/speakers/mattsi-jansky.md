@@ -11,6 +11,8 @@ track: "tech"
 slot_length: 45
 slot_Type: "talk"
 slot_level: 1
+slot_track: "2"
+slot_time: "10.00"
 slot_title: "Rust 101: Understand the Hype"
 summary: "Rust 101: Understand the Hype"
 featured_image: /images/speakers/mattsi-jansky.jpg

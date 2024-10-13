@@ -9,6 +9,8 @@ job_title: "Data Scientist"
 company: ""
 track: "data"
 slot_length: 45
+slot_track: "1"
+slot_time: "14.00"
 slot_Type: "talk"
 slot_level: 2
 slot_title: "Enhancing Healthcare with AI: The Role of Human-in-the-Loop in Medical Imaging"

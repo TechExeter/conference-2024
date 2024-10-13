@@ -9,6 +9,8 @@ job_title: "Behavioural Data Scientist"
 company: "Good With"
 track: "data"
 slot_length: 45
+slot_track: "1"
+slot_time: "14.45"
 slot_type: "talk"
 slot_level: 1
 slot_title: "Credit Risk as Psychological Readiness: The Behavioural Data Science of Financial Health"

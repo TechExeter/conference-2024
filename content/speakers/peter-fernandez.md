@@ -9,6 +9,8 @@ job_title: "Principal Developer Advocate - Auth0"
 company: "Okta"
 track: "tech"
 slot_length: 30
+slot_track: "2"
+slot_time: "14.00"
 slot_Type: "talk"
 slot_level: 2
 slot_title: "Eye Spy an API"

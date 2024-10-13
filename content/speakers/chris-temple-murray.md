@@ -10,6 +10,8 @@ company: "Exeter College"
 track: "digital"
 slot_length: 30
 slot_Type: "talk"
+slot_track: "3"
+slot_time: "11.30"
 slot_level: 1
 slot_title: "Harnessing AI to develop a fully inclusive learning environment"
 summary: "Harnessing AI to develop a fully inclusive learning environment"

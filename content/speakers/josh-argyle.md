@@ -1,5 +1,6 @@
 ---
-draft: false
+draft: true
+cancelled: true
 language: en
 categories:
 - speakers

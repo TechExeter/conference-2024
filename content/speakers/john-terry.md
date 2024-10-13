@@ -11,6 +11,8 @@ track: "tech"
 slot_length: 30
 slot_Type: "talk"
 slot_level: 1
+slot_track: "2"
+slot_time: "15.00"
 slot_title: "From Blackboard to Bedside: How mathematics became a regulated software-as-a-Medical-Device"
 summary: "From Blackboard to Bedside: How mathematics became a regulated software-as-a-Medical-Device"
 featured_image: /images/speakers/john-terry.jpg

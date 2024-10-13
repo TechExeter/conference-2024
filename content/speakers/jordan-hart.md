@@ -11,6 +11,8 @@ track: "data"
 slot_length: 45
 slot_Type: "talk"
 slot_level: 2
+slot_track: "1"
+slot_time: "16.00"
 slot_title: "Crossing the chasm between data and actions with causal AI"
 summary: "Crossing the chasm between data and actions with causal AI"
 featured_image: /images/speakers/jordan-hart.jpg

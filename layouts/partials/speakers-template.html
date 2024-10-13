@@ -1,6 +1,7 @@
 {{ $opages := where site.RegularPages "Section" "speakers" }}
 {{ $pages := where $opages "Params.slot_type" "talk" }}
 {{ $pages = $pages | union (where $opages "Params.slot_type" "panel") }}
+{{ $pages = $pages | union (where $opages "Params.slot_type" "workshop") }}
 
 {{ $paginator := .Paginate ($pages.ByParam "first_name") 25 }}
 

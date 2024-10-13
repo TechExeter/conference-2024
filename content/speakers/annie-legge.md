@@ -11,11 +11,14 @@ track: "digital"
 slot_length: 60
 slot_type: "panel"
 slot_level: 1
+slot_time: "14.00"
+slot_track: "3"
 slot_title: "Tech4Good Takover Session 1: Panel"
 summary: "Tech4Good Takover Session 1: Panel"
 featured_image: /images/speakers/annie-legge.jpg
 company_image: /images/speakers/annie-legge-T4GSW.png
-co-presenting: alex-mecklenburg 
+co_presenting: alex-mecklenburg 
+co_presenting_text: Alex Mecklenburg 
 contact:
 #- text: "LinkedIn"
 #  url: https://www.linkedin.com/in

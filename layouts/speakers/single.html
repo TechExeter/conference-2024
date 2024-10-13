@@ -35,6 +35,9 @@
           {{ .Params.slot_title }}
         </h3>
         {{ partial "talk-info.html" . }}
+        {{ if .Params.co_presenting_text }}
+        <h4>Co-presenting with <a href="../{{ .Params.co_presenting }}/">{{ .Params.co_presenting_text }}</a></h4>
+        {{ end }}
         <div class="px-2">
           {{.Content}}
         </div>
@@ -86,7 +89,7 @@
 </article>
 
 <div class="py-8 text-center text-white">
-  <span class="rounded-lg bg-indigo-500 text-white p-1 px-4"><a href="/speakers"> &laquo; Back to speaker list</a></span>
-
+  <span class="rounded-lg bg-indigo-500 text-white p-1 px-4 underline"><a href="/speakers">Full Speaker list</a></span>
+  <span class="rounded-lg bg-indigo-500 text-white p-1 px-4 underline"><a href="/schedule">Current Schedule</a></span>
 </div>
 {{end}}

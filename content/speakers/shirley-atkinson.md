@@ -9,6 +9,8 @@ job_title: "Faculty Director for Data Science and AI Education"
 company: "University of Exeter Business School"
 track: "digital"
 slot_length: 30
+slot_track: "3"
+slot_time: "12.00"
 slot_Type: "talk"
 slot_level: 2
 slot_title: "Higher Education in the AI landscape"

@@ -10,6 +10,8 @@ company: "NVIDIA"
 track: "tech"
 slot_length: 45
 slot_Type: "talk"
+slot_track: "2"
+slot_time: "12.00"
 slot_level: 1
 slot_title: "Building a career in Open Source"
 summary: "Building a career in Open Source"

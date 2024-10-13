@@ -1,7 +1,8 @@
 ---
 title: "Schedule"
-date: 2024-08-18T11:10:36+08:00
-draft: true
+draft: false
 language: en
 description: Talk schedule for TechExeter 2024
+layout: schedule
 ---
+Schedule is subject to change - we'll keep this page updated with the latest details.

@@ -9,6 +9,8 @@ job_title: "Head of Data Engineering"
 company: "Landmark Information Group"
 track: "data"
 slot_length: 45
+#slot_track: "1"
+#slot_time: "10.00"
 slot_Type: "talk"
 slot_level: 1
 slot_title: "We’ve just been asked to collaborate on this at the last minute. Please let’s allocate some time to prepare and discuss this further later."

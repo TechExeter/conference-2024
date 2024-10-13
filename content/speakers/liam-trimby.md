@@ -10,6 +10,8 @@ company: "Klarian Ltd"
 track: "data"
 slot_length: 30
 slot_type: "talk"
+slot_track: "1"
+slot_time: "12.00"
 slot_level: 1
 slot_title: "Helping the water sector clean up: addressing complex challenges by leveraging data and AI"
 summary: "Helping the water sector clean up: addressing complex challenges by leveraging data and AI"

@@ -9,13 +9,16 @@ job_title: "Senior business development leader"
 company: "Version 1"
 track: "digital"
 slot_length: 45
-slot_Type: "talk"
+slot_type: "talk"
 slot_level: 1
+#slot_track: "3"
+#slot_time: "10.00"
 slot_title: "Inclusivity and Diversity at National Museum of Computing"
 summary: "Inclusivity and Diversity at National Museum of Computing"
 featured_image: /images/speakers/james-mayo.jpg
 company_image: /images/speakers/company-version1.png
-co-presenting: jamie-steele
+co_presenting: jamie-steele
+co_presenting_text: "Jamie Steele"
 contact:
 bio:
 - James is a senior business development leader working with UK Public Sector and Not-For-Profit clients for IT Services Provider Version 1, having worked in the industry for over 25 years.

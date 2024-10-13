@@ -9,6 +9,8 @@ job_title: "Digital Experience Manager"
 company: "South West Grid for Learning Trust"
 track: "tech"
 slot_length: 30
+slot_track: "2"
+slot_time: "14.30"
 slot_Type: "talk"
 slot_level: 2
 slot_title: "StopNCII.org - Preventing Non-Consentual Intimate Image Abuse"

@@ -1,0 +1,263 @@
+{{define "main" }}
+
+<style type="text/css">
+  .schedule-wrap {
+      margin:1em auto 2em;
+      border-width: 1em;
+      border-style: solid; 
+  }
+  .schedule-wrap h1 {
+    font-size: 2rem;
+    padding: 0.5em 0.25em;
+    margin:0px;
+  }
+  #schedule {
+    padding:0.25em;
+    display: grid;
+    grid-gap: 0.2em;
+    gap:0.2em;
+    grid-template-areas:
+      "thead  t1head    t2head      t3head"
+      "t-0830 t1-0830   t1-0830     t1-0830"
+      "t-0845 t1-0830   t1-0830     t1-0830"
+      "t-0900 t1-0830   t1-0830     t1-0830"
+      "t-0915 t1-0915   t1-0915     t1-0915"
+      "t-0930 t1-0930   t1-0930     t1-0930"
+      "t-0945 t1-0930   t1-0930     t1-0930"
+      "t-1000 t1-1000   t2-1000     t3-1000"
+      "t-1015 t1-1000   t2-1000     t3-1000"
+      "t-1030 t1-1030   t2-1000     t3-1000"
+      "t-1045 break1    break1      break1"
+      "t-1100 break1    break1      break1"
+      "t-1115 break1    break1      break1"
+      "t-1130 t1-1130   t2-1130     t3-1130"
+      "t-1145 t1-1130   t2-1130     t3-1130"
+      "t-1200 t1-1200   t2-1200     t3-1200"
+      "t-1215 t1-1200   t2-1200     t3-1200"
+      "t-1230 t1-1230   t2-1200     ."
+      "t-1245 t1-1230   .           ."
+      "t-1300 lunch     lunch       lunch"
+      "t-1315 lunch     lunch       lunch"
+      "t-1330 lunch     lunch       lunch"
+      "t-1345 lunch     lunch       lunch"
+      "t-1400 t1-1400   t2-1400     t3-1400"
+      "t-1415 t1-1400   t2-1400     t3-1400"
+      "t-1430 t1-1400   t2-1430     t3-1400"
+      "t-1445 t1-1445   t2-1430     t3-1445"
+      "t-1500 t1-1445   t2-1500     t3-1445"
+      "t-1515 t1-1445   t2-1500     t3-1445"
+      "t-1530 break2    break2      break2 "
+      "t-1545 break2    break2      break2 "
+      "t-1600 t1-1600   t2-1600     t3-1600"
+      "t-1615 t1-1600   t2-1600     t3-1600"
+      "t-1630 t1-1600   t2-1600     ."
+      "t-1645 .         .           ."
+      "t-1700 t1-1700   t1-1700     t1-1700"
+      "t-1715 t1-1700   t1-1700     t1-1700"
+      "t-1730 t1-1730   t1-1730     t1-1730"
+  }
+
+  .t-0845, .t-0900, 
+  .t-1100, .t-1115,
+  .t-1315, .t-1330, .t-1345,
+  .t-1545 {
+    display:none;
+  }
+  
+  #schedule .small-time {
+    display:none;
+  }
+
+  @media screen and (max-width: 40em) {
+      .schedule-wrap {
+        border:0px;
+        background:none;
+        margin: 0px;
+      }
+      #schedule {
+        box-shadow:none;
+        padding:0px;
+        grid-gap: 0px;
+        gap:0px;
+      }
+      #schedule .time {
+        display:none;
+      }
+      /*
+      .item {
+        // border:1px solid #fff;
+      }
+    */
+      #schedule .small-time {
+        display:inline-block;
+      }
+      #schedule .item {
+        margin-bottom: 0.25em;
+      }
+  }
+
+#schedule .item {
+  scroll-margin-top: 3.5em;
+  padding:0.3em;
+}
+
+#schedule .item.head {
+  padding: 0.5em;
+}
+
+#schedule h2 {
+  padding-bottom: 0;
+  border-bottom: none;
+  margin:0px 0px 0.25em;
+  text-transform: capitalize;
+}
+#schedule .item .speaker {
+  text-align:left;
+  max-width:auto;
+  font-size:0.8em;
+}
+#schedule .item .type {
+  background-color: #ffc845;
+  font-size:0.8em;
+  display:inline-block;
+  padding:0 0.25em;
+  transition: all 0.2s;
+}
+#schedule .item .type.talk {
+  background:#d7dfdf;
+  transition: all 0.2s;
+}
+#schedule .item .type.talk:hover { 
+  background-color: #ffc845;
+}
+#schedule .item .type.workshop,
+#schedule .item .type.keynote {
+    background:#d7dfdf;
+    transition: all 0.2s;
+}
+
+#schedule .item .type.workshop:hover,
+#schedule .item .type.keynote:hover { 
+    background-color: #ffc845;
+}
+
+#schedule .item.time h2 {
+  font-size:1em;
+  font-weight:normal;
+  color:#3c3b3b;
+  margin-top:0.08em;
+}
+
+#schedule .item.break,
+#schedule .item.lunch {
+    padding:0.5em;
+}
+
+</style>
+
+<div class="schedule-wrap mx-auto max-w-7xl border-indigo-500">
+  <div id="schedule" class="text-white dark:text-white">
+    {{ range seq 30600 900 63000 }}
+    {{ $t := time.AsTime . }}
+    <div class="item time t-{{ $t.Format "1504" }}" style="grid-area: t-{{$t.Format "1504" }}">
+      {{ $t.Format "15.04" }}
+    </div>
+    {{ end }}
+  
+    {{ $opages := where site.RegularPages "Section" "speakers" }}
+    {{ $pages := where $opages "Params.slot_time" "!=" nil }}
+    {{ range $pages }}
+    {{ $cssGridName:=  printf "t%s-%s" .Params.slot_track (replace .Params.slot_time "." "") }}
+
+    <div class="item {{ .Params.slot_type }} {{ $cssGridName }} bg-slate-700 border-l-4 border-track-{{ .Params.track }}-500" style="grid-area: {{ $cssGridName }}">
+      <div class="small-time">{{ .Params.slot_time }}</div>
+      {{ if .Permalink }}
+      <a href="{{ .Permalink }}">
+      {{ end }}
+      <h2 class="font-bold">{{ .Params.slot_title }}</h2>
+      {{ if .Permalink }}
+      </a>
+      {{ end }}
+      <div class="speaker">
+      {{ if not (eq .Params.slot_type "talk") }}
+      <span class="bg-lime-200 text-black py-1 px-2 mr-1 font-bold">
+        {{ .Params.slot_type }}
+      </span>
+      {{ end }}
+        {{ .Params.title }}
+        {{ if .Params.company }}
+          <span class="company">({{ .Params.company }})</span>
+        {{ end }}
+        {{ if .Params.co_presenting_text }}
+          &amp; {{ .Params.co_presenting_text  }}
+        {{ end }}
+      </div>
+    </div>
+    {{ end }}
+  
+    <div class="item head t1 bg-cyan-700" style="grid-area: t1head;" id="track_1">
+    <h2 class="font-bold">Track 1 - Data &amp; AI</h2>
+    HENDERSON THEATRE, XFI
+    </div>
+    <div class="item head t2 bg-indigo-700" style="grid-area: t2head;" id="track_2">
+    <h2 class="font-bold">Track 2 - Tech &amp; Software</h2>
+    BATEMAN THEATRE, 1st floor<br/>
+    {{ $p1image := resources.Get "images/pages/sponsor_okta.png" }}
+    {{ with $p1image }}
+    {{ with .Resize (printf "%dx%d webp q90" .Width .Height) }}
+    <a href="/sponsorship#okta">
+        <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" class="mt-1 w-40 h-auto p-2 rounded-lg bg-gradient-to-r from-cyan-500 to-emerald-500" alt="Okta Logo" loading="lazy" />
+    </a>
+    {{ end }}
+    {{ end }}
+    </div>
+    <div class="item head t3 bg-rose-700" style="grid-area: t3head;" id="track_3">
+    <h2 class="font-bold">Track 3 - Business &amp; Digital</h2>
+    MATRIX THEATRE, 1st floor
+    </div>
+  
+    <div class="item t1-0830 bg-violet-900" style="grid-area: t1-0830">
+      <div class="small-time">08.30</div>
+      <h2 class="font-bold">Registration Opens</h2>
+      Tea, Coffee and Pastries
+    </div>
+    <div class="item t1-0915 bg-violet-700" style="grid-area: t1-0915">
+      <div class="small-time">09.15</div>
+      <h2 class="font-bold">Opening Ceremony</h2>
+    </div>
+    <div class="item break break1 bg-violet-700" style="grid-area: break1">
+      <div class="small-time">10.45</div>
+      Break
+    </div>
+    <div class="item break break2 bg-violet-700" style="grid-area: lunch">
+      <div class="small-time">13.00</div>
+      Lunch<br/>
+      2-course hot fork buffet
+    </div>
+    <div class="item break break2 bg-violet-700" style="grid-area: break2">
+      <div class="small-time">15.30</div>
+      Break<br/>
+      Cream Teas
+    </div>
+    <div class="item t1-0915 bg-violet-700" style="grid-area: t1-1700">
+      <div class="small-time">17.00</div>
+      <h2 class="font-bold">Closing Ceremony</h2>
+      Prizegiving
+    </div>
+     
+    <div class="item t1-0915 bg-violet-700" style="grid-area: t1-1730">
+      <div class="small-time">17.30</div>
+      <h2 class="font-bold">Group Photo & After-Party</h2>
+      Creative Quadrant Buliding
+    </div>
+
+  </div>
+</div>
+
+<div class="max-w-4xl mx-auto mt-8 mb-2">
+  <div class="px-6 pt-6 pb-4 text-black dark:text-white text-center">
+    {{.Content}}
+  </div>
+</div>
+
+{{end}}

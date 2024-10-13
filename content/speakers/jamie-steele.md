@@ -11,11 +11,14 @@ track: "digital"
 slot_length: 45
 slot_Type: "talk"
 slot_level: 1
+slot_track: "3"
+slot_time: "10.00"
 slot_title: "Inclusivity and Diversity at National Museum of Computing"
 summary: "Inclusivity and Diversity at National Museum of Computing"
 featured_image: /images/speakers/jamie-steele.jpg
 company_image: /images/speakers/company-version1.png
-co-presenting: james-mayo
+co_presenting: james-mayo
+co_presenting_text: "James Mayo"
 contact:
 -  text: LinkedIn
    url: https://www.linkedin.com/in/jamiesteeleuk/

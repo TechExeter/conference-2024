@@ -9,7 +9,9 @@ job_title: "Freelance web developer / tech author"
 company: ""
 track: "tech"
 slot_length: 45
-slot_Type: "talk"
+slot_type: "talk"
+slot_track: "2"
+slot_time: "16.00"
 slot_level: 1
 slot_title: "Future web: new and upcoming browser features"
 summary: "Future web: new and upcoming browser features"

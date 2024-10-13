@@ -51,6 +51,20 @@
             {{ end }}
             {{ end }}
 
+          <h2 class="border-t-4 border-indigo-500 pt-3 mt-3">Sponsor</h2>
+
+          {{ $p1image := resources.Get "images/pages/sponsor_nexusmods.png" }}
+          {{ with $p1image }}
+          {{ with .Resize (printf "%dx%d webp q90" .Width .Height) }}
+            <a href="https://nexusmods.com/" target="_blank">
+              <img imgh src="{{ .RelPermalink }}" width="{{ .Width }}" height="{{ .Height }}" class="mt-1 w-60 h-auto p-6 rounded-lg bg-gradient-to-r from-slate-300 to-slate-600 mx-auto" alt="Okta Logo" loading="lazy" />
+            </a>
+            <p><strong>One of the most popular gaming websites</strong></p>
+            <p>Since 2001 we have made it our mission to provide a platform for people around the world to share their mods and tools freely with other gamers in a positive and inclusive community.</p>
+          {{ end }}
+          {{ end }}
+
+
             <h2 class="border-t-4 border-indigo-500 pt-3 mt-3">Special thanks to</h2>
 
             {{ $p1image := resources.Get "images/pages/pydata_exeter_logo.png" }}
