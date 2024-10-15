@@ -147,11 +147,10 @@ menu:
       name: Speakers
       url: /speakers/
       weight: 10
-# @todo reinstate      
-#    - identifier: schedule
-#      name: Schedule
-#      url: /schedule/
-#      weight: 20
+    - identifier: schedule
+      name: Schedule
+      url: /schedule/
+      weight: 20
     - identifier: sponsorship
       name: Sponsorship
       url: /sponsorship/
@@ -193,11 +192,10 @@ menu:
       name: Speakers
       url: /speakers/
       weight: 10
-# @todo reinstate
-#    - identifier: schedule
-#      name: Schedule
-#      url: /schedule/
-#      weight: 20      
+    - identifier: schedule
+      name: Schedule
+      url: /schedule/
+      weight: 20      
     - identifier: sponsorship
       name: Sponsorship
       url: /sponsorship/
