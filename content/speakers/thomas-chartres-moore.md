@@ -31,4 +31,8 @@ takeaways:
 - a new perspective on what life might be like in 10 years time
 ---
 
-A review of the increasingly regulated AI landscape, including some of the issues we see and foresee coming from the intense adoption and legal frameworks being applied.
+In this talk, we will explore the increasingly regulated landscape of artificial intelligence (AI), delving into the current legal frameworks and the challenges they present. As AI continues to permeate various sectors, the need for robust regulations becomes paramount. 
+
+We will discuss key issues such as data privacy, intellectual property, and liability, alongside ethical considerations like bias and transparency, and the increasing trend for Augmented Intelligence being passed off as AI. 
+
+By examining current regulations and predicting future trends, this talk aims to provide a comprehensive overview of the legal landscape surrounding AI and its implications for businesses.
