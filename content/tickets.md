@@ -22,7 +22,7 @@ Your ticket includes:
     * Access to the after party
     * Priority access to the session recordings after the event
 
-Your £95 (+VAT + fees) ticket goes into paying our speakers, venue, logistics and catering fees. Leftover monies go back into the community to help keep our other events <em>free</em> throughout the year (part of our <a href="https://techexeter.uk/about-us/" target="_blank">Community Interest Company mission statement</a>).
+Your ticket goes into paying our speakers, venue, logistics and catering fees. Leftover monies go back into the community to help keep our other events <em>free</em> throughout the year (part of our <a href="https://techexeter.uk/about-us/" target="_blank">Community Interest Company mission statement</a>).
 
 <h2>Cheaper tickets?</h2>
 
@@ -37,7 +37,7 @@ We also do bulk discounts for organisations -  <a href="/contact">get in touch!<
 
 <h3>Parking</h3>
 
-Car parking is available at Car Park C (visitor car park) via the Stretham Drive entrance. Places on a first come first served basis. Alternate parking - on-street along Prince of Wales Road, or in staff car park Car Park D.
+LIMITED car parking spaces at Car Park C - Visitor car park (PayByPhone 804186) via the Stretham Drive entrance. Places on a first come first served basis. Further (cheaper) parking - on-street along Prince of Wales Road (RingGo 30319), or Stretham Drive. See map for details.
 
 Accessible parking is available at the front of the venue, where there is also a drop-off point.
 

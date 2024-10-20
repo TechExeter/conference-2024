@@ -47,7 +47,22 @@ The most cited hurdles to adoption of responsible technology are a lack of senio
 
 What the research also showed was that the definition of responsible technology varies across organisations and that there is currently no consensus on which responsible practices should take priority in organisations. 
 
-## Session 1: Panel
+## Panel Session
+
+Annie is joined by:
+
+### Lucy Gower 
+
+Lucy is founder and director at Lucidity. She is a facilitator, trainer and coach and specialises in helping leaders with the confidence and tools to build high performing teams that get results.She is bestselling author of The Innovation Workout and How to have confidence at work and co-presenter on the Quiet Leadership Revolution podcast. Lucy is a global speaker on storytelling, creativity and leadership. She believes that whilst technology is an enabler of positive outcomes, it is the ability of people to collaborate that ensures technology leverages the maximum impact. She enjoys working on projects and with organisations with a mission to make a positive impact. Connect with Lucy Gower on LinkedIn, or email lucy@lucidity.org.uk.
+
+### Gavin Jones
+
+Gavin is the Head of Innovation of Elixel, a digital product studio based in Plymouth. Over the last decade, Gavin has overseen the delivery of projects for a wide range of organisations including JP Morgan, WPA and Pallex. Alongside the larger corporate projects, Gavin has had the opportunity to work with startups and educators to design platforms which have helped children with specific learning difficulties to sleep better, cancer patients to find nutritional information to help them keep fighting, families to discover nature places to explore, parents to keep their kids safe online and those on mental health journeys to better understand themselves and help young people to start living life independently.
+
+His work expands out of his normal working responsibilities. His passion for driving impact locally has led him to co-found Digital Plymouth in 2015 to bring together a community of digital businesses and professionals, and in 2020 he joined the board of Citizens Advice Plymouth to support their digital transformation journey, helping them to utilise technology to help and support more people.
+
+
+---
 
 The panel is going to discuss: 
 - What Responsible Technology means to them

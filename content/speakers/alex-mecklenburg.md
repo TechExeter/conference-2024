@@ -47,6 +47,6 @@ The most cited hurdles to adoption of responsible technology are a lack of senio
 
 What the research also showed was that the definition of responsible technology varies across organisations and that there is currently no consensus on which responsible practices should take priority in organisations. 
 
-## Session 2: Workshop
+## Workshop
 
-In the second session, we will host a workshop that facilitates the use of the Consequence Scanning tool to explore the consequences of technology choices and processes, providing participants with an opportunity to reflect on both intended and unintended outcomes.
+In this second session, we will host a workshop that facilitates the use of the Consequence Scanning tool to explore the consequences of technology choices and processes, providing participants with an opportunity to reflect on both intended and unintended outcomes.
