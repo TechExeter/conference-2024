@@ -61,6 +61,9 @@ Gavin is the Head of Innovation of Elixel, a digital product studio based in Ply
 
 His work expands out of his normal working responsibilities. His passion for driving impact locally has led him to co-found Digital Plymouth in 2015 to bring together a community of digital businesses and professionals, and in 2020 he joined the board of Citizens Advice Plymouth to support their digital transformation journey, helping them to utilise technology to help and support more people.
 
+### Yudi Wu
+
+Yudi Wu is a Creative Producer/Practitioner based in Exeter/South West. Being both extremely online and hyper-local, their work focuses on combining creative technology, especially online/virtual spaces, with socially engaged art. Working with organisations such as Maketank and Devon Ukrainian Association, they are currently exploring how grassroots artists and marginalised communities could work together towards local regeneration.
 
 ---
 
