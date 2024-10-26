@@ -9,12 +9,12 @@ job_title: "Co-Founder"
 company: "Dot Project, Consequential CIC, Truth & Spectacle"
 track: "digital"
 slot_length: 60
-slot_type: "workshop"
+slot_type: "workshop (CQ building)"
 slot_level: 1
-slot_time: "14.45"
+slot_time: "15.00"
 slot_track: "3"
-slot_title: "Tech4Good Takover Session 2: Workshop"
-summary: "Tech4Good Takover Session 2: Workshop"
+slot_title: "Tech4Good: Responsible Technology - Workshop"
+summary: "Tech4Good: Responsible Technology - Workshop"
 featured_image: /images/speakers/alex-mecklenburg.jpg
 company_image: /images/speakers/alex-mecklenburg-DOTPROJECT.png
 co_presenting: annie-legge 
@@ -33,6 +33,11 @@ bio_extended:
 ---
     Tech4Good take over the business track with a panel session & workshop
 
+
+<div class=" bg-indigo-500 text-white p-1 px-2 mr-2">
+  This session takes places in the <a href="https://www.google.com/maps/d/u/1/edit?mid=1VRYIr9TLHGEbd6QLzr6SlspgiSjE95w&usp=sharing" target="_blank" class="text-white underline">CQ building</a> - Exit the building via the welcome desk and follow signs for the CQ (20 second walk)
+</div>
+
 Tech4Good South West is a member network focused on the intentional use of technology to drive positive outcomes for people and planet.
 
 > Tech4Good South West amplifies the positive impact of technology across the region by building a vibrant tech-for-good community. Our mission is to address how technology can support society and tackle the unintended consequences of the digital age. We focus on raising awareness, fostering collaboration, and promoting sustainable approaches to technology.
@@ -49,4 +54,6 @@ What the research also showed was that the definition of responsible technology 
 
 ## Workshop
 
-In this second session, we will host a workshop that facilitates the use of the Consequence Scanning tool to explore the consequences of technology choices and processes, providing participants with an opportunity to reflect on both intended and unintended outcomes.
+Our panelists will be joining us for a workshop as a second session. 
+
+A practical and highly interactive workshop that introduces Consequence Scanning as an agile business practice to focus on the positive aspects of a product or decision and mitigate or address potential harms or disasters before they happen. Participants will learn about the process and will have the opportunity to experience an adaptable and lightweight practice to take back into their own communities and organisations.

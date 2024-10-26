@@ -37,7 +37,7 @@ We also do bulk discounts for organisations -  <a href="/contact">get in touch!<
 
 <h3>Parking</h3>
 
-LIMITED car parking spaces at Car Park C - Visitor car park (PayByPhone 804186) via the Stretham Drive entrance. Places on a first come first served basis. Further (cheaper) parking - on-street along Prince of Wales Road (RingGo 30319), or Stretham Drive. See map for details.
+LIMITED car parking spaces at Car Park C - Visitor car park (PayByPhone 804186) via the Stretham Drive entrance. Places on a first come first served basis. Further (cheaper) parking - on-street along Prince of Wales Road (RingGo 30319), or Stretham Drive (RingGo 30319). See map for details.
 
 Accessible parking is available at the front of the venue, where there is also a drop-off point.
 
@@ -47,6 +47,6 @@ The nearest train station is Exeter St Davids, which is a 15-20 minute walk (up 
 
 <h3>Taxi</h3>
 
-Ask for the University of Exeter Business School / Stocker Road.
+Ask for the University of Exeter Business School "Building One" / Stocker Road.
 
 </article>

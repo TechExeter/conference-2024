@@ -13,8 +13,8 @@ slot_type: "panel"
 slot_level: 1
 slot_time: "14.00"
 slot_track: "3"
-slot_title: "Tech4Good Takover Session 1: Panel"
-summary: "Tech4Good Takover Session 1: Panel"
+slot_title: "Tech4Good: Responsible Technology - Panel"
+summary: "Tech4Good: Responsible Technology - Panel"
 featured_image: /images/speakers/annie-legge.jpg
 company_image: /images/speakers/annie-legge-T4GSW.png
 schedule_image: /images/speakers/annie-legge-T4GSW.png
@@ -64,6 +64,15 @@ His work expands out of his normal working responsibilities. His passion for dri
 ### Yudi Wu
 
 Yudi Wu is a Creative Producer/Practitioner based in Exeter/South West. Being both extremely online and hyper-local, their work focuses on combining creative technology, especially online/virtual spaces, with socially engaged art. Working with organisations such as Maketank and Devon Ukrainian Association, they are currently exploring how grassroots artists and marginalised communities could work together towards local regeneration.
+
+### Ed Howard
+
+Ed has worked in the voluntary, community and social enterprise sector (VCSE) for the last 20 years directly supporting social enterprises and charities to develop and grow, deeply understanding the complexity and needs of social sector organisations. For the last 7 years, Ed worked for a major funder, providing grant funding and capacity support for community businesses looking to enhance their digital capabilities. 
+Ed was the co-founder of Tech4Good Bristol, which later became Tech4Good South West. Ed is passionate about closing the digital divide to ensure the communities and organisations that are best placed to meet the challenges that the South West faces have the technology and knowledge to achieve their missions.
+
+### Ann Holman 
+
+Ann is a highly experienced senior executive and digital transformation specialist. As the Chief Operating Officer at Plymouth Marjon University, she oversees digital/IT, estates, sport, and commercial activity, while also leading business transformation and environmental sustainability initiatives. Her extensive experience includes working on multi-million-pound projects for a diverse range of clients in complex environments. She also serves as a Trustee for Devon Air Ambulance Trust and Devon Community Foundation, demonstrating her commitment to contributing to her community. 
 
 ---
 
