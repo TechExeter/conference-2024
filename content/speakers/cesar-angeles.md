@@ -11,7 +11,7 @@ track: "data"
 slot_length: 30
 slot_type: "talk"
 slot_track: "1"
-slot_time: "11.30"
+slot_time: "12.30"
 slot_level: 1
 slot_title: "How Digital Twins are helping Decarbonise the Energy Sector"
 summary: "How Digital Twins are helping Decarbonise the Energy Sector"
